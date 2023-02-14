@@ -5,7 +5,7 @@ Node.js as specified in .nvmrc
 
 ## Install dependencies
 ```
-$ npm install
+npm install
 ```
 
 ## Serve the site
