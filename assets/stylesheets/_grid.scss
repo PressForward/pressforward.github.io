@@ -6,8 +6,8 @@
   padding: 0 calc($grid-column-gap / 2);
   max-width: $container-fluid-max-width;
 
-  //@media (min-width: $sm) {
-  //  width: $container-fluid-width;
-  //  padding: 0;
-  //}
+  @media (min-width: $sm) {
+    width: $container-fluid-width;
+    padding: 0;
+  }
 }

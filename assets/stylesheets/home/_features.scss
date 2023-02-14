@@ -1,0 +1,7 @@
+@use "variables" as *;
+
+.features {
+  @media (min-width: $sm) {
+    padding-top: calc(128px - $section-spacing-skew);
+  }
+}

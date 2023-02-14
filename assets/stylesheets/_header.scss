@@ -2,13 +2,56 @@
 
 
 header {
+  z-index: $z-index-header;
+  position: relative;
+
+  .home & {
+    color: $white;
+  }
+
   ul {
     list-style: none;
-    margin: 0;
+    margin: 0 (-$space-sm);
     padding: 0;
+    display: flex;
+    align-items: center;
+    height: $header-mobile-height;
+
+    @media (min-width: $sm) {
+      margin: 0 (-$space-md);
+      height: $header-height;
+    }
   }
 
   a {
     text-decoration: none;
+    display: block;
+    padding: $space-sm;
+    color: inherit;
+
+    @media (min-width: $sm) {
+      padding: $space-sm $space-md;
+    }
+  }
+
+  .home {
+    margin-right: auto;
+
+    a {
+      display: flex;
+      align-items: center;
+      font-size: $font-size-large;
+      line-height: 1;
+    }
+
+    img {
+      margin-right: $space-xs;
+    }
+
+    span {
+      @media (max-width: $sm - 1) {
+        display: none;
+      }
+    }
   }
 }
