@@ -1,0 +1,20 @@
+// Colors
+
+$blue-dark: #1a1a33;
+
+// Spacing
+
+$space-min: 4px;
+$space-xs:  8px;
+$space-sm:  12px;
+$space-md:  16px;
+$space-lg:  24px;
+$space-xl:  32px;
+$space-xxl: 48px;
+
+// Grid
+
+$container-fluid-width: 100% * calc(5 / 6); // 64px margin on portrait tablet
+$container-fluid-max-width: 1080px;
+
+$grid-column-gap: $space-xl;

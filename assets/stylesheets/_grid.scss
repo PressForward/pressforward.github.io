@@ -1,0 +1,13 @@
+@use "variables" as *;
+
+
+.container-fluid {
+  margin: 0 auto;
+  padding: 0 calc($grid-column-gap / 2);
+  max-width: $container-fluid-max-width;
+
+  //@media (min-width: $sm) {
+  //  width: $container-fluid-width;
+  //  padding: 0;
+  //}
+}
