@@ -18,6 +18,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: $headings-line-height;
+  color: $blue-dark;
 }
 
 
@@ -27,5 +28,11 @@ h1 {
 
   @media (min-width: $sm) {
     font-size: 56px;
+  }
+}
+
+h2 {
+  @media (min-width: $sm) {
+    font-size: 42px;
   }
 }

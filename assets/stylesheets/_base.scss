@@ -11,3 +11,9 @@ body {
   margin: 0;
   color: $body-color;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}

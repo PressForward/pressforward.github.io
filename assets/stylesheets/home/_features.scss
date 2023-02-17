@@ -4,4 +4,114 @@
   @media (min-width: $sm) {
     padding-top: calc(128px - $section-spacing-skew);
   }
+
+  h2 {
+    @media (min-width: $sm) {
+      text-align: center;
+    }
+  }
+
+  .row {
+    padding: calc($section-spacing * 3 / 4 / 2) 0;
+
+    &:nth-of-type(odd) {
+      .col-text {
+        @media (min-width: $sm) {
+          padding-right: calc($grid-column-gap / 2);
+        }
+
+        @media (min-width: $md) {
+          padding-right: 30px;
+        }
+      }
+
+      .col-figure {
+        @media (min-width: $sm) {
+          padding-left: calc($grid-column-gap / 2);
+        }
+
+        @media (min-width: $md) {
+          padding-left: 30px;
+        }
+      }
+    }
+
+    &:nth-of-type(even) {
+      .col-text {
+        @media (min-width: $sm) {
+          padding-left: calc($grid-column-gap / 2);
+        }
+
+        @media (min-width: $md) {
+          padding-left: 30px;
+        }
+      }
+
+      .col-figure {
+        @media (min-width: $sm) {
+          padding-right: calc($grid-column-gap / 2);
+        }
+
+        @media (min-width: $md) {
+          padding-right: 30px;
+        }
+      }
+    }
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .gather {
+    width: 400px;
+    height: 272px;
+    //background-color: #fafafa;
+    position: relative;
+
+    img {
+      position: absolute;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow:
+        0 0 12px rgba($blue-dark, 0.1),
+        0 16px 32px -16px rgba($blue-dark, 0.2);
+    }
+  }
+
+  .huffpost {
+    top: 0;
+    right: 0;
+  }
+
+  .wordpress {
+    top: 54px;
+    left: 0;
+  }
+
+  .youtube {
+    bottom: 0;
+    left: 80px;
+  }
+
+  .organize {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:
+      0 0 12px rgba($blue-dark, 0.1),
+      0 16px 32px -16px rgba($blue-dark, 0.2);
+  }
+
+  .publish {
+
+  }
+
+  .content-hub {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:
+      0 0 12px rgba($blue-dark, 0.1),
+      0 16px 32px -16px rgba($blue-dark, 0.2);
+
+  }
 }
