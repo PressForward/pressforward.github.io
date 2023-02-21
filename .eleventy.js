@@ -9,6 +9,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addExtension("less", {
     outputFileExtension: "css",
 
+    compileOptions: {
+      cache: false
+    },
+
     compile: async (input) => {
       let options = { math: 'always' }
       let output = await less.render(input, options)
