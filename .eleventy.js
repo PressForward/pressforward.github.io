@@ -1,7 +1,19 @@
-const eleventySass = require('eleventy-sass')
+const less = require('less')
+
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets/images')
 
-  eleventyConfig.addPlugin(eleventySass)
+  eleventyConfig.addTemplateFormats('less')
+
+  eleventyConfig.addExtension("less", {
+    outputFileExtension: "css",
+
+    compile: async (input) => {
+      let options = { math: 'always' }
+      let output = await less.render(input, options)
+
+      return () => output.css
+    }
+  })
 }

@@ -1,0 +1,35 @@
+body {
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+}
+
+a {
+  color: @link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: @headings-line-height;
+  color: @blue-dark;
+}
+
+
+h1 {
+  font-size: 37.33px; // 2/3
+  letter-spacing: -0.015em;
+
+  @media (min-width: @sm) {
+    font-size: 56px;
+  }
+}
+
+h2 {
+  @media (min-width: @sm) {
+    font-size: 42px;
+  }
+}

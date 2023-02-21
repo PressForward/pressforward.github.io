@@ -1,0 +1,16 @@
+.make-grid(@bp) {
+  each(range(12), {
+    .col-@{bp}-@{value} {
+      grid-column-end: span @value;
+      grid-row: 1;
+    }
+
+    .start-@{bp}-@{value} {
+      grid-column-start: @value;
+    }
+  });
+
+  .justify-self-@{bp}-end {
+    justify-self: end;
+  }
+}
