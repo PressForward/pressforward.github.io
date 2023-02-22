@@ -42,7 +42,12 @@
     }
 
     img {
+      width: 41px * 4 / 5;
       margin-right: @space-xs;
+
+      @media (min-width: @sm) {
+        width: initial;
+      }
     }
 
     span {
