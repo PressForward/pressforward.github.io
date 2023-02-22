@@ -97,6 +97,20 @@
     position: relative;
   }
 
+  .window {
+    border-radius: 10px;
+    box-shadow:
+      0 0 12px rgba(@blue-dark, 0.1),
+      0 16px 32px -16px rgba(@blue-dark, 0.2);
+
+    @supports (container-type: inline-size) {
+      border-radius: 2.5cqw;
+      box-shadow:
+        0 0 3cqw rgba(@blue-dark, 0.1),
+        0 4cqw 8cqw -4cqw rgba(@blue-dark, 0.2);
+    }
+  }
+
   .gather {
     aspect-ratio: 400 / 272;
 
@@ -107,9 +121,6 @@
     .wireframe {
       width: 60%;
       border-radius: 2.5cqw;
-      box-shadow:
-        0 0 3cqw rgba(@blue-dark, 0.1),
-        0 4cqw 8cqw -4cqw rgba(@blue-dark, 0.2);
     }
 
     .huffpost {
@@ -143,23 +154,12 @@
   }
 
   .organize {
-
     img {
       border-radius: 2.5cqw;
-      box-shadow:
-        0 0 3cqw rgba(@blue-dark, 0.1),
-        0 4cqw 8cqw -4cqw rgba(@blue-dark, 0.2);
     }
   }
 
   .publish {
-    .content-hub {
-      border-radius: 2.5cqw;
-      box-shadow:
-        0 0 12px rgba(@blue-dark, 0.1),
-        0 16px 32px -16px rgba(@blue-dark, 0.2);
-    }
-
     .mastodon {
       position: absolute;
       width: 100% * 90 / 400;
@@ -167,5 +167,4 @@
       bottom: 100% * -16 / 231;
     }
   }
-
 }
