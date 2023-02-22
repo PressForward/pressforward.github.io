@@ -21,9 +21,13 @@
   .skew {
     position: absolute;
     inset: 0;
-    background: radial-gradient(closest-side, #3d3d99, @blue-dark);
+    background: radial-gradient(100% 50%, #3d3d99, @blue-dark);
     transform: skewY(@section-skew);
     transform-origin: 0 0;
+
+    @media (min-width: @sm) {
+      background: radial-gradient(closest-side, #3d3d99, @blue-dark);
+    }
   }
 
   h1 {
