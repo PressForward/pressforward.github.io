@@ -6,8 +6,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addTemplateFormats('less')
 
-  eleventyConfig.addExtension("less", {
-    outputFileExtension: "css",
+  eleventyConfig.addExtension('less', {
+    outputFileExtension: 'css',
 
     compileOptions: {
       cache: false
