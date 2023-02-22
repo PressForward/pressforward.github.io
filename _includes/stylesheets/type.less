@@ -2,6 +2,9 @@ body {
   font-family: @font-family-base;
   font-size: @font-size-base;
   line-height: @line-height-base;
+  word-spacing: -0.035em;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 a {
@@ -18,10 +21,14 @@ h1, h2, h3, h4, h5, h6 {
   color: @blue-dark;
 }
 
+// 42px, 56px: Upper limit
+// 32px, 42px: interpolated
+// 25px, 32px: lower limit
 
 h1 {
-  font-size: 37.33px; // 2/3
+  font-size: 42px;
   letter-spacing: -0.015em;
+  word-spacing: -0.035em;
 
   @media (min-width: @sm) {
     font-size: 56px;
@@ -29,7 +36,29 @@ h1 {
 }
 
 h2 {
+  font-size: 32px;
+  letter-spacing: -0.01em;
+  word-spacing: -0.035em;
+
   @media (min-width: @sm) {
     font-size: 42px;
+  }
+
+  br {
+    display: none;
+
+    @media (min-width: @sm) {
+      display: inline;
+    }
+  }
+}
+
+h3 {
+  font-size: 25px;
+  letter-spacing: -0.005em;
+  word-spacing: -0.035em;
+
+  @media (min-width: @sm) {
+    font-size: 32px;
   }
 }

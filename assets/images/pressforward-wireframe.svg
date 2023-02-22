@@ -1,3 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="236" viewBox="0 0 400 236">
-  <rect width="400" height="236" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="236" viewBox="0 0 400 236">
+  <defs>
+    <linearGradient id="a" x1="274.5" y1="67.307" x2="274.5" y2="82.016" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3b3ff"/>
+      <stop offset="0.426" stop-color="#b6b3ff"/>
+      <stop offset="0.767" stop-color="#c0b3ff"/>
+      <stop offset="1" stop-color="#ccb3ff"/>
+    </linearGradient>
+    <linearGradient id="b" y1="119.299" x2="274.5" y2="134.417" xlink:href="#a"/>
+    <linearGradient id="c" x1="282.5" y1="145.257" x2="282.5" y2="160.314" xlink:href="#a"/>
+    <linearGradient id="d" x1="290.5" y1="170.955" x2="290.5" y2="186.325" xlink:href="#a"/>
+    <linearGradient id="e" x1="282.5" y1="93.119" x2="282.5" y2="108.33" xlink:href="#a"/>
+  </defs>
+  <g style="isolation: isolate">
+    <g>
+      <rect width="400" height="236" fill="#fff"/>
+      <rect x="264" y="44" width="56" height="8" rx="4" fill="#e6e6e6"/>
+      <g>
+        <path d="M283.5,66H273l-1.561-1.561a1.5,1.5,0,0,0-1.06-.439H265.5a1.5,1.5,0,0,0-1.5,1.5v14a1.5,1.5,0,0,0,1.5,1.5h18a1.5,1.5,0,0,0,1.5-1.5v-12A1.5,1.5,0,0,0,283.5,66Z" fill="#99f"/>
+        <rect x="264" y="67" width="21" height="15" rx="1.5" fill="url(#a)"/>
+      </g>
+      <rect x="291" y="70" width="64" height="8" rx="3" fill="#d4c0ff" opacity="0.33"/>
+      <g>
+        <path d="M283.5,118H273l-1.561-1.561a1.5,1.5,0,0,0-1.06-.439H265.5a1.5,1.5,0,0,0-1.5,1.5v14a1.5,1.5,0,0,0,1.5,1.5h18a1.5,1.5,0,0,0,1.5-1.5v-12A1.5,1.5,0,0,0,283.5,118Z" fill="#99f"/>
+        <rect x="264" y="119" width="21" height="15" rx="1.5" fill="url(#b)"/>
+      </g>
+      <rect x="291" y="122" width="56" height="8" rx="3" fill="#d4c0ff" opacity="0.33"/>
+      <g>
+        <path d="M291.5,144H281l-1.561-1.561a1.5,1.5,0,0,0-1.06-.439H273.5a1.5,1.5,0,0,0-1.5,1.5v14a1.5,1.5,0,0,0,1.5,1.5h18a1.5,1.5,0,0,0,1.5-1.5v-12A1.5,1.5,0,0,0,291.5,144Z" fill="#99f"/>
+        <rect x="272" y="145" width="21" height="15" rx="1.5" fill="url(#c)"/>
+      </g>
+      <rect x="299" y="148" width="64" height="8" rx="3" fill="#d4c0ff" opacity="0.33"/>
+      <g>
+        <path d="M299.5,170H289l-1.561-1.561a1.5,1.5,0,0,0-1.06-.439H281.5a1.5,1.5,0,0,0-1.5,1.5v14a1.5,1.5,0,0,0,1.5,1.5h18a1.5,1.5,0,0,0,1.5-1.5v-12A1.5,1.5,0,0,0,299.5,170Z" fill="#99f"/>
+        <rect x="280" y="171" width="21" height="15" rx="1.5" fill="url(#d)"/>
+      </g>
+      <rect x="307" y="174" width="48" height="8" rx="3" fill="#d4c0ff" opacity="0.33"/>
+      <g>
+        <path d="M291.5,92H281l-1.561-1.561a1.5,1.5,0,0,0-1.06-.439H273.5a1.5,1.5,0,0,0-1.5,1.5v14a1.5,1.5,0,0,0,1.5,1.5h18a1.5,1.5,0,0,0,1.5-1.5v-12A1.5,1.5,0,0,0,291.5,92Z" fill="#99f"/>
+        <rect x="272" y="93" width="21" height="15" rx="1.5" fill="url(#e)"/>
+      </g>
+      <rect x="299" y="96" width="64" height="8" rx="3" fill="#d4c0ff" opacity="0.33"/>
+      <rect x="100" y="44" width="64" height="48" rx="6" fill="#c0ffea"/>
+      <g opacity="0.75" style="mix-blend-mode: multiply">
+        <ellipse cx="152" cy="78.2" rx="8" ry="6.4" fill="#b3b3ff"/>
+        <path d="M147.2,87s1.265-2.735,0-4,2.712-1.288,4,0C152.707,84.507,147.2,87,147.2,87Z" fill="#b3b3ff"/>
+      </g>
+      <g opacity="0.7">
+        <polygon points="59.645 22 35.396 8 35.396 36 59.645 22" fill="#fff"/>
+        <polygon points="48.249 22 24 8 24 36 48.249 22" fill="#5c5ce5"/>
+        <polygon points="59.645 22 35.396 8 35.396 36 59.645 22" fill="#80d8ff" style="mix-blend-mode: multiply"/>
+      </g>
+      <rect x="65" y="18" width="23" height="8" rx="4" fill="#ebebeb"/>
+      <rect x="188" y="18" width="24" height="8" rx="4" fill="#ebebeb"/>
+      <rect x="160" y="18" width="24" height="8" rx="4" fill="#ebebeb"/>
+      <rect x="216" y="18" width="24" height="8" rx="4" fill="#ebebeb"/>
+      <rect x="360" y="18" width="16" height="8" rx="4" fill="#ebebeb"/>
+      <rect x="304" y="18" width="52" height="8" rx="4" fill="#ebebeb"/>
+      <rect x="24" y="44" width="64" height="48" rx="6" fill="#ffe1e1"/>
+      <rect x="176" y="44" width="64" height="48" rx="6" fill="#c0ecff"/>
+      <rect x="100" y="104" width="64" height="48" rx="6" fill="#e5dfdf" opacity="0.75"/>
+      <rect x="24" y="104" width="64" height="48" rx="6" fill="#d4c0ff" opacity="0.5"/>
+      <rect x="176" y="104" width="64" height="48" rx="6" fill="#d4c0ff"/>
+      <polygon points="226 127.979 228.361 135.244 236 135.244 229.82 139.735 232.18 147 226 142.51 219.82 147 222.18 139.735 216 135.244 223.639 135.244 226 127.979" fill="#b3b3ff" opacity="0.75" style="mix-blend-mode: multiply"/>
+      <rect x="100" y="164" width="64" height="48" rx="6" fill="#c0ecff"/>
+      <rect x="24" y="164" width="64" height="48" rx="6" fill="#c0ffea"/>
+      <rect x="176" y="164" width="64" height="48" rx="6" fill="#d4c0ff" opacity="0.5"/>
+      <polygon points="74 186.979 76.361 194.244 84 194.244 77.82 198.735 80.18 206 74 201.51 67.82 206 70.18 198.735 64 194.244 71.639 194.244 74 186.979" fill="#b3b3ff" opacity="0.75" style="mix-blend-mode: multiply"/>
+    </g>
+  </g>
 </svg>

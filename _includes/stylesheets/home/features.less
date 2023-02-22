@@ -1,21 +1,53 @@
 .features {
+  font-size: 19px;
+  line-height: 1.26; // 18px / 1.33
+  word-spacing: -0.035em;
+  padding-top: calc(@section-mobile-spacing - @section-spacing-skew - 3px);
+  padding-bottom: ceil(@section-mobile-spacing * 4 / 3) - @features-mobile-spacing;
+
   @media (min-width: @sm) {
-    padding-top: calc(128px - @section-spacing-skew);
+    padding-top: calc(@section-spacing - @section-spacing-skew);
+    padding-bottom: ceil(@section-spacing * 4 / 3) - @features-spacing;
   }
 
   h2 {
+    margin-top: 0;
+    margin-bottom: @features-mobile-spacing - 8px;
+
     @media (min-width: @sm) {
       text-align: center;
+      margin-bottom: @features-spacing - 9px;
+    }
+  }
+
+  h3 {
+    margin: -9px 0 0 0;
+
+    @media (min-width: @sm) {
+      margin: 0;
+    }
+  }
+
+  p {
+    margin-top: 9px;
+    margin-bottom: 32px - 6px;
+
+    @media (min-width: @sm) {
+      margin: 9px 0 0 0;
     }
   }
 
   .row {
-    padding: calc(@section-spacing * 3 / 4 / 2) 0;
+    padding-block: @features-mobile-spacing;
+
+    @media (min-width: @sm) {
+      padding-block: @features-spacing;
+    }
 
     &:nth-of-type(odd) {
       .col-text {
         @media (min-width: @sm) {
-          padding-right: calc(@grid-column-gap / 2);
+          padding-right: @grid-column-gap / 2;
         }
 
         @media (min-width: @md) {
@@ -25,7 +57,7 @@
 
       .col-figure {
         @media (min-width: @sm) {
-          padding-left: calc(@grid-column-gap / 2);
+          padding-left: @grid-column-gap / 2;
         }
 
         @media (min-width: @md) {
@@ -37,7 +69,7 @@
     &:nth-of-type(even) {
       .col-text {
         @media (min-width: @sm) {
-          padding-left: calc(@grid-column-gap / 2);
+          padding-left: @grid-column-gap / 2;
         }
 
         @media (min-width: @md) {
@@ -47,7 +79,7 @@
 
       .col-figure {
         @media (min-width: @sm) {
-          padding-right: calc(@grid-column-gap / 2);
+          padding-right: @grid-column-gap / 2;
         }
 
         @media (min-width: @md) {
@@ -58,57 +90,82 @@
   }
 
   figure {
-    margin: 0;
+    container-type: inline-size;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
   }
 
   .gather {
-    width: 400px;
-    height: 272px;
-    //background-color: #fafafa;
-    position: relative;
+    aspect-ratio: 400 / 272;
 
     img {
       position: absolute;
-      border-radius: 10px;
-      overflow: hidden;
+    }
+
+    .wireframe {
+      width: 60%;
+      border-radius: 2.5cqw;
+      box-shadow:
+        0 0 3cqw rgba(@blue-dark, 0.1),
+        0 4cqw 8cqw -4cqw rgba(@blue-dark, 0.2);
+    }
+
+    .huffpost {
+      top: 0;
+      right: 0;
+    }
+
+    .wordpress {
+      top: 100% * 54 / 272;
+      left: 0;
+    }
+
+    .youtube {
+      bottom: 0;
+      left: 20%;
+    }
+
+    .pin {
+      width: 100% * 29 / 400;
+    }
+
+    .pin-1 {
+      top: 100% * 105 / 272;
+      right: 100% * 62 / 400;
+    }
+
+    .pin-2 {
+      top: 100% * 35 / 272;
+      right: 100% * 142 / 400;
+    }
+  }
+
+  .organize {
+
+    img {
+      border-radius: 2.5cqw;
+      box-shadow:
+        0 0 3cqw rgba(@blue-dark, 0.1),
+        0 4cqw 8cqw -4cqw rgba(@blue-dark, 0.2);
+    }
+  }
+
+  .publish {
+    .content-hub {
+      border-radius: 2.5cqw;
       box-shadow:
         0 0 12px rgba(@blue-dark, 0.1),
         0 16px 32px -16px rgba(@blue-dark, 0.2);
     }
+
+    .mastodon {
+      position: absolute;
+      width: 100% * 90 / 400;
+      right: 100% * 55 / 400;
+      bottom: 100% * -16 / 231;
+    }
   }
 
-  .huffpost {
-    top: 0;
-    right: 0;
-  }
-
-  .wordpress {
-    top: 54px;
-    left: 0;
-  }
-
-  .youtube {
-    bottom: 0;
-    left: 80px;
-  }
-
-  .organize {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow:
-      0 0 12px rgba(@blue-dark, 0.1),
-      0 16px 32px -16px rgba(@blue-dark, 0.2);
-  }
-
-  .publish {
-
-  }
-
-  .content-hub {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow:
-      0 0 12px rgba(@blue-dark, 0.1),
-      0 16px 32px -16px rgba(@blue-dark, 0.2);
-  }
 }

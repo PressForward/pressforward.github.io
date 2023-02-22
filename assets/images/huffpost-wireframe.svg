@@ -1,3 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="240" height="148" viewBox="0 0 240 148">
-  <rect width="240" height="148" fill="#fff"/>
+  <g>
+    <rect width="240" height="148" fill="#fff"/>
+    <g opacity="0.6">
+      <polygon points="12 16 12 40 20.739 40 24.952 16 12 16" fill="#0cbc81"/>
+      <polygon points="27.293 16 23.079 40 36 40 36 16 27.293 16" fill="#0cbc81"/>
+    </g>
+    <rect x="48" y="26" width="72" height="45" fill="#e5dfdf" opacity="0.5"/>
+    <rect x="126" y="26" width="62" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="32" width="66" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="38" width="54" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="45" width="66" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="126" y="49" width="66" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="126" y="53" width="60" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="126" y="57" width="24" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="48" y="76" width="144" height="1" fill="#f0f0f0"/>
+    <rect x="48" y="81" width="72" height="45" fill="#e5dfdf"/>
+    <rect x="126" y="81" width="62" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="87" width="66" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="93" width="54" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="100" width="66" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="126" y="104" width="66" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="126" y="108" width="60" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="126" y="112" width="24" height="2" rx="1" fill="#e6e6e6"/>
+    <rect x="48" y="131" width="144" height="1" fill="#f0f0f0"/>
+    <rect x="48" y="136" width="72" height="12" fill="#e5dfdf" opacity="0.5"/>
+    <rect x="126" y="136" width="62" height="3" rx="1.5" fill="#ddd"/>
+    <rect x="126" y="142" width="66" height="3" rx="1.5" fill="none"/>
+    <rect x="48" y="16" width="32" height="4" rx="2" fill="#ddd"/>
+    <g>
+      <rect x="204" y="116" width="24" height="24" rx="3.281" fill="#5c5ce5" opacity="0.7"/>
+      <path d="M212.156,134.023a2.18,2.18,0,1,1-2.179-2.179A2.18,2.18,0,0,1,212.156,134.023Zm-4.406-11.085a13.289,13.289,0,0,1,13.289,13.289h3.141a16.43,16.43,0,0,0-16.43-16.43Zm10.875,13.289a10.874,10.874,0,0,0-10.875-10.875v3.14a7.734,7.734,0,0,1,7.734,7.735Z" fill="#fff"/>
+    </g>
+    <rect width="240" height="8" fill="#1a1a33" opacity="0.33"/>
+  </g>
 </svg>
