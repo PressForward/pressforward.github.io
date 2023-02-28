@@ -1,0 +1,15 @@
+.tween(@from, @to, @start, @stop, @rest...) {
+  @range: @stop - @start;
+  @delta: @to - @from;
+  @factor: unit(@delta) / unit(@range);
+
+  each(@rest, {
+    @media (min-width: @start) {
+      @{value}: calc(@from + (100vw - @start) * @factor);
+    }
+
+    @media (min-width: @stop) {
+      @{value}: @to;
+    }
+  });
+}
