@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="a">
+      <path d="M32,0A32,32,0,0,0,15.012,59.114C15.138,47.428,22.69,38,32,38s16.862,9.428,16.988,21.114A32,32,0,0,0,32,0Z" fill="#b6f8ff"/>
+    </clipPath>
+  </defs>
+  <g style="isolation: isolate">
+    <g>
+      <path d="M32,0A32,32,0,0,0,15.012,59.114C15.138,47.428,22.69,38,32,38s16.862,9.428,16.988,21.114A32,32,0,0,0,32,0Z" fill="#b6f8ff"/>
+      <g clip-path="url(#a)">
+        <polygon points="32 0 61.453 44.467 2.582 44.632 32 0" fill="#fff" opacity="0.33" style="mix-blend-mode: overlay"/>
+        <ellipse cx="14" cy="59.396" rx="17" ry="21.396" fill="#ffb3b3"/>
+        <ellipse cx="50" cy="59.409" rx="17" ry="21.409" fill="#7373ff"/>
+        <ellipse cx="32" cy="28" rx="7" ry="8" fill="#cc9a8f"/>
+        <ellipse cx="14" cy="28" rx="7" ry="8" fill="#b2807d"/>
+        <ellipse cx="50" cy="28" rx="7" ry="8" fill="#f0c3a8"/>
+      </g>
+    </g>
+  </g>
+</svg>

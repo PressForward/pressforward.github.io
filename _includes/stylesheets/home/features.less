@@ -1,6 +1,6 @@
 .features {
   font-size: 19px;
-  line-height: 1.26; // 18px / 1.33
+  line-height: 1.33;
   word-spacing: -0.035em;
   padding-top: calc(@section-mobile-spacing - @section-spacing-skew - 4px);
   padding-bottom: ceil(@section-mobile-spacing * 4 / 3) - @features-mobile-spacing - 10px;
@@ -30,14 +30,14 @@
 
   p {
     margin-top: 9px;
-    margin-bottom: 40px - 6px;
+    margin-bottom: 40px - 7px;
 
     @media (min-width: @sm) {
       margin: 9px 0 0 0;
     }
   }
 
-  .row {
+  .grid {
     padding-block: @features-mobile-spacing;
 
     @media (min-width: @sm) {

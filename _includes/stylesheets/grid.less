@@ -9,17 +9,7 @@
   }
 }
 
-.row {
-  display: grid;
-  grid-template-columns: 1fr;
-
-  @media (min-width: @sm) {
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: @grid-column-gap;
-  }
-}
-
-.row {
+.grid {
   display: grid;
   grid-template-columns: 1fr;
 
@@ -34,10 +24,6 @@
   min-width: 0; // Prevent grid blowout
 }
 
-.justify-self-end {
-  justify-self: end;
-}
-
 @media (min-width: @sm) {
   .make-grid(sm);
 }
@@ -50,3 +36,12 @@
 //  @include make-grid(lg);
 //}
 
+.justify-self-end {
+  justify-self: end;
+}
+
+.order-sm-first {
+  @media (min-width: @sm) {
+    order: -1;
+  }
+}

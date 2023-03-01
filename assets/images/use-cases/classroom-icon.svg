@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g style="isolation: isolate">
+    <g>
+      <path d="M59,3H49a4,4,0,0,0-4,4V8a4,4,0,0,1-4,4H26a4,4,0,0,1-4-4V7a4,4,0,0,0-4-4H5A4,4,0,0,0,1,7V56a4,4,0,0,0,4,4H59a4,4,0,0,0,4-4V7A4,4,0,0,0,59,3Z" fill="#6e6eff"/>
+      <polygon points="22 64 17 61 12 64 12 36 22 36 22 64" fill="#ff8d8d"/>
+      <path d="M32,5V59c0-2.209,12.984-4,29-4V1C44.984,1,32,2.791,32,5Z" fill="#b6f8ff"/>
+      <path d="M32,5V59c0-2.209,12.984-4,29-4V1C44.984,1,32,2.791,32,5Z" fill="#fff" opacity="0.5"/>
+      <path d="M32,5V59c0-2.209-12.984-4-29-4V1C19.016,1,32,2.791,32,5Z" fill="#b6f8ff"/>
+      <path d="M56,48.06v-43c-8.525.2-15.767.922-20,1.914v43C40.234,48.982,47.477,48.265,56,48.06Z" fill="#f66" opacity="0.07" style="mix-blend-mode: multiply"/>
+      <path d="M8,48.06v-43c8.525.2,15.767.922,20,1.914v43C23.766,48.982,16.523,48.265,8,48.06Z" fill="#ff8d8d" opacity="0.11" style="mix-blend-mode: multiply"/>
+    </g>
+  </g>
+</svg>

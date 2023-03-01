@@ -1,7 +1,11 @@
 .partners {
-  padding-bottom: @section-mobile-spacing - 34px + 5px;
+  padding-bottom: @section-mobile-spacing - 17px + 5px;
 
   @media (min-width: @sm) {
+    padding-bottom: calc(@section-spacing - 53px + @section-spacing-skew);
+  }
+
+  @media (min-width: @lg) {
     padding-bottom: @section-spacing - 63px + 12px;
   }
 
