@@ -6,7 +6,8 @@
   }
 
   @media (min-width: @lg) {
-    padding-bottom: @section-spacing - 63px + 12px;
+    //padding-bottom: @section-spacing - 63px + 12px;
+    padding-bottom: calc(@section-spacing - @section-spacing-skew);
   }
 
   ul {

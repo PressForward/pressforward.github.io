@@ -1,33 +1,33 @@
 .use-cases {
-  padding-top: calc(@section-mobile-spacing - 17px + 1vw);
-  padding-bottom: calc(@section-mobile-spacing - 52px + @section-spacing-skew);
+  padding: 0.1px; // Stretch section with inner margin
   position: relative;
-  margin-bottom: 500px;
-
-  @media (min-width: @sm) {
-    padding-top: calc(@section-spacing - 58px - 1vw);
-    padding-bottom: calc(@section-spacing - 50px + @section-spacing-skew);
-  }
-
-  @media (min-width: @lg) {
-    padding-top: @section-spacing;
-    padding-bottom: @section-spacing - 71px + 22px;
-  }
 
   .skew {
     position: absolute;
     inset: 0;
     background-color: #faf7f7;
     transform: skewY(@section-skew);
-    transform-origin: 0 0;
-
-    @media (min-width: @lg) {
-      transform-origin: initial;
-    }
+    transform-origin: 100% 0;
   }
 
+  // Use margin instead of section padding as some values can be negative
   .container-fluid {
+    margin-top: calc(@section-mobile-spacing - 11px + 10vw);
+    margin-bottom: calc(@section-mobile-spacing - 43px - @section-spacing-skew);
     position: relative;
+
+    @media (min-width: @sm) {
+      margin-top: calc(@section-spacing - 16px + 10vw);
+      margin-bottom: calc(@section-spacing - 50px - @section-spacing-skew);
+    }
+
+    @media (min-width: @md) {
+      margin-bottom: calc(@section-spacing - 29px - @section-spacing-skew);
+    }
+
+    @media (min-width: @lg) {
+      margin-top: calc(@section-spacing + 46px + @section-spacing-skew);
+    }
   }
 
   h2 {
