@@ -1,5 +1,7 @@
 ---
 title: "Filtering Scholarly Writing from the Open Web using Active Learning SVM"
+tags:
+  - projectReports
 ---
 
 Every week [Digital Humanities Now](http://digitalhumanitiesnow.org) (DHNow) distributes the most important news and pieces for the field by publishing links on our website and Twitter feed. In order to identify the content most valuable to this broad and dispersed community, we rely on volunteers who help us read through the aggregated RSS feeds from our collection of 500+ identified sources, as well as content identified by searches on the open web.

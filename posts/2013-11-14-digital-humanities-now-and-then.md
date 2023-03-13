@@ -1,5 +1,7 @@
 ---
 title: "Digital Humanities Now (and Then)"
+tags:
+  - projectReports
 ---
 
 Over the past four years, [*Digital Humanities Now*](http://digitalhumanitiesnow.org "Digital Humanities Now") (*DHNow*) has used a variety of approaches to aggregating, reviewing, selecting, and disseminating scholarly content from the open web. Originally populated with content from Twitter chosen by an algorithm and automatically-published on the website, since 2011 the content for *DHNow* has been selected and prepared by an in-house editorial group. In the past year, we have developed our own [PressForward plugin](https://github.com/PressForward/pressforward "The PressForward Plugin"), to facilitate the aggregation, review, and dissemination process within the WordPress dashboard. At the same time that we have significantly increased the human labor involved, we have been seeking ways to reduce the editorial burden for running such a publication.

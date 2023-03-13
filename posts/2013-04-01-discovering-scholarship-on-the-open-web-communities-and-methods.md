@@ -1,5 +1,7 @@
 ---
 title: "Discovering Scholarship on the Open Web: Communities and Methods"
+tags:
+  - whitePapers
 ---
 
 Online publications that aggregate content from a wide variety of sources have become increasingly valuable to readers and publishers. The academy, however, is still unsure how to efficiently identify, collect, survey, evaluate, and redistribute the valuable scholarly writing published both formally and informally on the open web. Fortunately, some scholarly communities are developing methods to draw attention to upcoming work in their fields.

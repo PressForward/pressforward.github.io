@@ -1,5 +1,7 @@
 ---
 title: "Digital Humanities Now 2.0: Bigger and Better, with a New Review Process"
+tags:
+  - projectReports
 ---
 
 After five months of retooling, we’re relaunching *[Digital Humanities Now](http://digitalhumanitiesnow.org "Digital Humanities Now")* today. As part of this relaunch it has been moved into the [PressForward](http://pressforward.org/ "PressForward") family of publications, as one of that project’s new models of how high-quality work can emerge from, and reach, scholarly communities.

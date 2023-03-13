@@ -1,5 +1,8 @@
 ---
 title: "Prototyping a Curated Scholarly Publication: Digital Humanities Now"
+tags:
+  - projectReports
+  - whitePapers
 ---
 
 *This post is part of a [series](http://pressforward.org/category/research-reports/guides/curating-scholarship/ "Curating Scholarship Series") that reflects on three years of research on sourcing and circulating scholarly communication on the open web. In the coming weeks we will share our discoveries, processes, and code developed through rapid prototyping and iterative design: the [PressForward plugin](http://pressforward.org/the-pressforward-plugin "The PressForward Plugin") for WordPress; the collaboratively-edited weekly publication [Digital Humanities Now](http://digitalhumanitiesnow.org/ "Digital Humanities Now"); and the experimental overlay [Journal of Digital Humanities](http://journalofdigitalhumanities.org/ "Journal of Digital Humanities"). We hope these resources will encourage and assist others who wish to collect, select, and share content from the web with an engaged community of readers.*

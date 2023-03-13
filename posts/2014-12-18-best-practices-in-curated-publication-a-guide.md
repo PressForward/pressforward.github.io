@@ -1,5 +1,7 @@
 ---
 title: "Best Practices in Curated Publication: A Guide"
+tags:
+  - whitePapers
 ---
 
 The abundance of gray literature on the open web has created a need for the development of web publications that aid research communities by aggregating, curating and redistributing material of value to that community. The use of technologies, like the PressForward plugin, makes this possible for those with only modest time and labor to dedicate to the publication.
