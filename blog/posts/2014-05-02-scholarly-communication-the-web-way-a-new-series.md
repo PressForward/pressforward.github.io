@@ -3,7 +3,7 @@ title: "Scholarly Communication, the Web Way – A New Blog Series"
 authors:
   - Joan Fragaszy Troyano
 tags:
-  - guides
+  - Guides
 ---
 
 *This week we begin a series of posts that reflect on three years of research on sourcing and circulating scholarly communication on the open web. In the coming weeks we will share our discoveries, processes, and code developed through rapid prototyping and iterative design: the [PressForward plugin](http://pressforward.org/the-pressforward-plugin "The PressForward Plugin") for WordPress; the collaboratively-edited weekly publication [Digital Humanities Now](http://digitalhumanitiesnow.org "Digital Humanities Now"); and the experimental overlay [Journal of Digital Humanities](http://journalofdigitalhumanities.org "Journal of Digital Humanities").* *We hope these resources will encourage and assist others who wish to collect, select, and share content from the web with an engaged community of readers.*

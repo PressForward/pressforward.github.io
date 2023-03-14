@@ -3,7 +3,7 @@ title: "16 Month Review of Digital Humanities Now"
 authors:
   - Joan Fragaszy Troyano
 tags:
-  - projectReports
+  - Project Reports
 ---
 
 Sixteen months after the relaunch of Digital Humanities Now, it is time again to offer a glimpse behind the scenes. While many of the trends we identified in our [six month report](http://digitalhumanitiesnow.org/2012/05/six-month-review-of-digital-humanities-now/) remain stable, there have been two significant changes in our editorial process.

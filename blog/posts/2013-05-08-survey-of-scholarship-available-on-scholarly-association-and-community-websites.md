@@ -3,7 +3,7 @@ title: "Survey of Scholarship Available on Scholarly Association and Community W
 authors:
   - Amanda Regan
 tags:
-  - projectReports
+  - Project Reports
 ---
 
 Do visitors to the websites of professional scholarly associations and communities find any scholarship? This report assesses the scholarly communication available on the websites of twelve professional associations and communities from the sciences and the humanities.

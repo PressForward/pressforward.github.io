@@ -3,7 +3,7 @@ title: "Two Years of the Journal of Digital Humanities"
 authors:
   - Joan Fragaszy Troyano
 tags:
-  - projectReports
+  - Project Reports
 ---
 
 [Seven issues](http://journalofdigitalhumanities.org/volumes/). Nearly 90 works by over [120 authors](http://journalofdigitalhumanities.org/authors/) and a half dozen institutions. More than 600 pages. Who says that there is no scholarship on the open web? With the first two volumes of the *[Journal of Digital Humanities](http://journalofdigitalhumanities.org/)* (*JDH*) we have offered an [overlay journal](http://discovery.ucl.ac.uk/19081/) for this diverse and emerging field, sourced almost entirely from [scholarship on the open web](http://digitalhumanitiesnow.org/) in the previous six months.

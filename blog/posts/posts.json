@@ -1,6 +1,6 @@
 {
   "layout": "layouts/post",
-  "tags": ["posts"],
+  "tags": ["post"],
   "permalink": "{{ page.fileSlug }}/",
   "class": "blog post"
 }

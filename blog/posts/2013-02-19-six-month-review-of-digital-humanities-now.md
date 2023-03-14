@@ -3,7 +3,7 @@ title: "Six Month Review of Digital Humanities Now"
 authors:
   - Joan Fragaszy Troyano
 tags:
-  - projectReports
+  - Project Reports
 ---
 
 It has been six months since *Digital Humanities Now* [relaunched in version 2.0](http://www.dancohen.org/2011/11/02/digital-humanities-now-2-0-bigger-and-better-with-a-new-review-process/) through the support of the PressForward Project, funded by the Sloan Foundation. The [first version](http://www.dancohen.org/2009/11/18/introducing-digital-humanities-now/), run between 2009 and 2010, was an automated survey of Twitter. [Version 1.5](http://www.dancohen.org/2011/11/02/digital-humanities-now-2-0-bigger-and-better-with-a-new-review-process/) was a one-man operation by [Dan Cohen](http://www.dancohen.org/) to vet the material using traditional methods of editorial section.
