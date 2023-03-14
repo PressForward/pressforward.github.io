@@ -1,5 +1,7 @@
 ---
 title: "Digital Humanities Now (and Then)"
+authors:
+  - Joan Fragaszy Troyano
 tags:
   - projectReports
 ---

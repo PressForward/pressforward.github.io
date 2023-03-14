@@ -1,5 +1,7 @@
 ---
 title: "Six Month Review of Digital Humanities Now"
+authors:
+  - Joan Fragaszy Troyano
 tags:
   - projectReports
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Survey of Scholarship Available on Scholarly Association and Community Websites"
+authors:
+  - Amanda Regan
 tags:
   - projectReports
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Discovering Scholarship on the Open Web: Communities and Methods"
+authors:
+  - Joan Fragaszy Troyano
 tags:
   - whitePapers
 ---

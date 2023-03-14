@@ -1,5 +1,8 @@
 ---
 title: "Filtering Scholarly Writing from the Open Web using Active Learning SVM"
+authors:
+  - Xin Guan
+  - Joan Fragaszy Troyano
 tags:
   - projectReports
 ---

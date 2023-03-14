@@ -1,5 +1,7 @@
 ---
 title: "Digital Humanities Now 2.0: Bigger and Better, with a New Review Process"
+authors:
+  - Dan Cohen
 tags:
   - projectReports
 ---

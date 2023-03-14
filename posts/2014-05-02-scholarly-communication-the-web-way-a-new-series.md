@@ -1,5 +1,7 @@
 ---
 title: "Scholarly Communication, the Web Way – A New Blog Series"
+authors:
+  - Joan Fragaszy Troyano
 tags:
   - guides
 ---

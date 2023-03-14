@@ -1,5 +1,7 @@
 ---
 title: "Prototyping a Curated Scholarly Publication: Digital Humanities Now"
+authors:
+  - Joan Fragaszy Troyano
 tags:
   - projectReports
   - whitePapers

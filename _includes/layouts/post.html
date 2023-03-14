@@ -3,5 +3,7 @@ layout: "layouts/default"
 ---
 
 <div class="container-fluid">
+  <p>{{ authors }}</p>
+  <p>{{ page.date | date: "%b %-d, %Y" }}</p>
   {{ content }}
 </div>

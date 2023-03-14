@@ -1,5 +1,8 @@
 ---
 title: "Best Practices in Curated Publication: A Guide"
+authors:
+  - Joan Fragaszy Troyano
+  - Stephanie Westcott
 tags:
   - whitePapers
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Two Years of the Journal of Digital Humanities"
+authors:
+  - Joan Fragaszy Troyano
 tags:
   - projectReports
 ---
