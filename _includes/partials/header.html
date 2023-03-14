@@ -1,4 +1,9 @@
-<header class="main-header">
+{%- if class == 'home' -%}
+  {%- assign header_classes = 'main-header inverse' -%}
+{%- else -%}
+  {%- assign header_classes = 'main-header' -%}
+{%- endif -%}
+<header class="{{ header_classes }}">
   <div class="container-fluid">
     <nav>
       <ul>
