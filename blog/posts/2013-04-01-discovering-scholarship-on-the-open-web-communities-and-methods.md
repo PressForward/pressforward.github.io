@@ -8,11 +8,13 @@ tags:
 
 Online publications that aggregate content from a wide variety of sources have become increasingly valuable to readers and publishers. The academy, however, is still unsure how to efficiently identify, collect, survey, evaluate, and redistribute the valuable scholarly writing published both formally and informally on the open web. Fortunately, some scholarly communities are developing methods to draw attention to upcoming work in their fields.
 
+---
+
 This report outlines the current state of the aggregation, curation, evaluation, and distribution of scholarship on the open web. We describe the primary types of websites where open collections of scholarly work can be found, specifically repositories, aggregators, curated content, and forums for post-publication review. We suggest an eight-point rubric for analyzing similar sources of web-published scholarship. Finally, we offer an annotated bibliography of outlets for scholarly communication on the open web.
 
-[PDF](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/04/pressforward_discoveringscholarship_whitepaper.pdf)
+[PDF](/assets/documents/2013/04/pressforward_discoveringscholarship_whitepaper.pdf)
 
-### Table of Contents
+## Table of Contents {.h3}
 
 1.  [Introduction](#intro)
 2.  [Aggregating and Curating Scholarly Content on the Web](#2)

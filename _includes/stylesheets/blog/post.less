@@ -1,4 +1,59 @@
 .post {
   font-size: @blog-font-size;
   line-height: @blog-line-height;
+
+  h1 {
+    @media (min-width: @md) {
+      width: 126%;
+      margin-left: -13%;
+    }
+  }
+
+  div > p:first-child {
+    font-size: @font-size-large;
+
+    @media (min-width: @md) {
+      font-size: 21px;
+      width: 126%; // 10 columns
+      margin-left: -13%;
+    }
+  }
+
+  p {
+    margin: 1.5em 0;
+  }
+
+  img {
+    display: block;
+    margin-inline: auto;
+
+    &.xs {
+      max-width: 339px;
+    }
+
+    &.sm {
+      max-width: 524px;
+    }
+  }
+
+  :target {
+    background: yellow;
+  }
+
+  figure {
+    text-align: center;
+    margin-inline: 0;
+
+    img {
+      display: initial;
+    }
+  }
+
+  figcaption {
+    font-size: 15px;
+  }
+
+  sup {
+    line-height: 1;
+  }
 }

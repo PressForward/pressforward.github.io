@@ -4,6 +4,7 @@ authors:
   - Joan Fragaszy Troyano
 tags:
   - Project Reports
+excerpt: "Over the past four years, [*Digital Humanities Now*](http://digitalhumanitiesnow.org) (<em>DHNow</em>) has used a variety of approaches to aggregating, reviewing, selecting, and disseminating scholarly content from the open web. By experimenting with *DHNow*, we are developing methodologies and technologies to facilitate community-sourced publications beyond digital humanities. In this post we detail some of the methods and technologies we have used along the way and our wishlist and plans for the future."
 ---
 
 Over the past four years, [*Digital Humanities Now*](http://digitalhumanitiesnow.org "Digital Humanities Now") (*DHNow*) has used a variety of approaches to aggregating, reviewing, selecting, and disseminating scholarly content from the open web. Originally populated with content from Twitter chosen by an algorithm and automatically-published on the website, since 2011 the content for *DHNow* has been selected and prepared by an in-house editorial group. In the past year, we have developed our own [PressForward plugin](https://github.com/PressForward/pressforward "The PressForward Plugin"), to facilitate the aggregation, review, and dissemination process within the WordPress dashboard. At the same time that we have significantly increased the human labor involved, we have been seeking ways to reduce the editorial burden for running such a publication.
@@ -12,9 +13,7 @@ Over the past four years, [*Digital Humanities Now*](http://digitalhumanitiesnow
 
 ## *DHNow* 1.0: From Automated to Edited, 2009-2011
 
-[![Digital Humanities Now 2009](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/11/digitalhumanitiesnow_homepage_1-1024x623-300x182.gif)](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/11/digitalhumanitiesnow_homepage_1-1024x623.gif)
-
-Digital Humanities Now, 2009
+{% figure src: "/assets/images/blog/2013/11/digitalhumanitiesnow_homepage_1@2x.gif" href: "/assets/images/blog/2013/11/digitalhumanitiesnow_homepage_1@full.gif" caption: "Digital Humanities Now 2009" className: "sm" %}
 
 *   Twitter list as source base
 *   Twittertim.es identified most popular content
@@ -32,10 +31,7 @@ Since *DHNow* became a part of PressForward and a testing ground to determine th
 
 ### Phase 1. July 2011-May 2012
 
-[![DHNow Editorial Process, 2011-2012](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/11/2011_dhnow_editorialprocess-300x163.jpg)](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/11/2011_dhnow_editorialprocess.jpg)
-
-DHNow Editorial Process, 2011-2012
-\*Graphic by Jeri Wieringa\*
+{% figure src: "/assets/images/blog/2013/11/2011_dhnow_editorialprocess@2x.png" href: "/assets/images/blog/2013/11/2011_dhnow_editorialprocess@full.jpg" caption: "DHNow Editorial Process, 2011\n Graphic by Jeri Wieringa" %}
 
 *   Expanding source base by intentional and focused searching
 *   Offering an [opt-in to the source base](http://digitalhumanitiesnow.org/submit-your-work/ "Digital Humanities Now Submit Your Work")
@@ -52,14 +48,11 @@ First the new project staff — Director Joan Fragaszy Troyano and Graduate Rese
 
 Once the site was relaunched in November 2011, we continued to establish editorial criteria and a sustainable workflow for a weekday publication with three staff. We enabled readers to [add themselves to the source base](http://digitalhumanitiesnow.org/submit-your-work/ "Digital Humanities Now Submit Your Work"). In addition, we began to scope out the requirements for a user-controlled technology to facilitate this aggregation process. As Google removed the ability to share and comment on RSS feeds in Google Reader in order to push Google Plus, we suspected that a user-controlled RSS aggregator within our WordPress installation soon would be critical. After testing out [Tiny Tiny RSS](http://tt-rss.org/redmine/projects/tt-rss/wiki "TinyTiny RSS") and a few other RSS aggregators, we confirmed the need to develop our own and in a relatively short timeframe. We pulled [Aram Zucker-Scharff](http://aramzuckerscharff.com/ "Aram Zucker-Scharff"), [Boone B. Gorges](http://boone.gorg.es/ "Boone Gorges"), and [Jeremy Boggs](http://clioweb.org/ "Jeremy Boggs") in for the development and design work on the [PressForward plugin](https://github.com/PressForward/pressforward "The PressForward Plugin"), drawing on their expertise in journalism practices, WordPress development, and user interfaces.
 
-[Read our 6 month review from May 2012 here](http://pressforward.org/2012/05/six-month-review-of-digital-humanities-now/ "Six Month Review of Digital Humanities Now").
+[Read our 6 month review from May 2012 here](/six-month-review-of-digital-humanities-now/ "Six Month Review of Digital Humanities Now").
 
 ### Phase 2: June 2012-June 2013
 
-[![DHNow Editorial Flow 2012-present](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/10/5dhnow_flow-300x193.png)](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/10/5dhnow_flow.png)
-
-DHNow Editorial Flow 2012-present
-\*Graphic by Spencer Roberts\*
+{% figure src: "/assets/images/blog/2013/11/5dhnow_flow.png" href: "/assets/images/blog/2013/11/5dhnow_flow.png" caption: "DHNow Editorial Flow 2012–present\n Graphic by Spencer Roberts" %}
 
 *   Aggregation via Google Reader
 *   Additional filtering by [Yahoo Pipes](http://pipes.yahoo.com/pipes/ "Yahoo Pipes") and [Tweeted Times](http://tweetedtimes.com/#!/dhnow "Digital Humanities Now Tweeted Times")
@@ -79,13 +72,11 @@ The combination of experienced editors plus additional editors-at-large reduced 
 
 During this period also we oversaw scope and basic development of the [PressForward plugin](https://github.com/PressForward/pressforward "The PressForward Plugin") leading to the [beta release in June 2013](http://pressforward.org/2013/06/plugin-beta-now-available/ "PressForward Plugin Beta Now Available").
 
-[Read our 16 month review from February 2013 here](http://pressforward.org/2013/02/16-month-review-of-digital-humanities-now/ "Sixteen Month Review of Digital Humanities Now").
+[Read our 16 month review from February 2013 here](/16-month-review-of-digital-humanities-now/ "Sixteen Month Review of Digital Humanities Now").
 
 ## *DHNow* 3.0: Community-Sourcing and Filtering, 2013-present
 
-[![Editor-at-Large Instructions](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/11/Screen-Shot-2013-11-12-at-10.07.12-AM-300x117.png)](http://chnmdev.gmu.edu/fellows/regan/PressFwd/wp-content/uploads/2013/11/Screen-Shot-2013-11-12-at-10.07.12-AM.png)
-
-Editor-at-Large Instructions
+{% figure src: "/assets/images/blog/2013/11/Screen-Shot-2013-11-12-at-10.07.12-AM@2x.png" href: "/assets/images/blog/2013/11/Screen-Shot-2013-11-12-at-10.07.12-AM@full.png" caption: "Editor-at-Large Instructions" %}
 
 *   Aggregation and nomination via [PressForward plugin](https://github.com/PressForward/pressforward "The PressForward Plugin")
 *   Additional filtering by [Yahoo Pipes](http://pipes.yahoo.com/pipes/ "Yahoo Pipes") and [Tweeted Times](http://tweetedtimes.com/#!/dhnow "Digital Humanities Now Tweeted Times")
@@ -111,7 +102,7 @@ The challenges we face likely will not surprise any of our readers:
 *   scarcity of time and attention from knowledgeable people
 *   decreasing usability of RSS feeds for individual readers and increasing capabilities of machine-enabled flows of information
 
-At the same time, we do sense some exciting opportunities. Not surprisingly, scholarly communities continue to desire ways to filter high quality content from a river of news. We plan to turn some of our attention back to improving the automated filtering of content coming through the river of news (you can read about our first attempt [here](http://pressforward.org/2013/04/filtering-scholarly-writing-from-the-open-web-using-active-learning-svm/ "Filtering Scholarly Writing from the Open Web Using Active Learning SVM")). In addition, we will continue to develop documentation for our practices and plugin to help other communities create their own community-sourced and edited publications that highlight and disseminate work already available on the open web.
+At the same time, we do sense some exciting opportunities. Not surprisingly, scholarly communities continue to desire ways to filter high quality content from a river of news. We plan to turn some of our attention back to improving the automated filtering of content coming through the river of news (you can read about our first attempt [here](/filtering-scholarly-writing-from-the-open-web-using-active-learning-svm/ "Filtering Scholarly Writing from the Open Web Using Active Learning SVM")). In addition, we will continue to develop documentation for our practices and plugin to help other communities create their own community-sourced and edited publications that highlight and disseminate work already available on the open web.
 
 We anticipate that existing scholarly communities wanting to move beyond listserv or newsletter distribution methods will be likely adopters of this “now” publication model. In addition, emerging and topically-focused communities of interest may have the interest and commitment to beginning their own publications. If you are interested, please [fill out our form](http://pressforward.org/pressforward-potential-publication-questionnaire/ "PressForward Potential Publication Questionnaire"), drop us a line at *info at pressforward dot org*, and we will be happy to speak with you.
 

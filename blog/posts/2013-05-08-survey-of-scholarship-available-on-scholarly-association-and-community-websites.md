@@ -8,6 +8,8 @@ tags:
 
 Do visitors to the websites of professional scholarly associations and communities find any scholarship? This report assesses the scholarly communication available on the websites of twelve professional associations and communities from the sciences and the humanities.
 
+---
+
 Both scientific associations and communities make peer-reviewed journal articles available to the public, whereas humanities journal articles are difficult to find on the open web. Moreover, scientific professional associations distributed gray literature in the form of podcasts, blogs, videos, and multimedia. In contrast, the scholarly communities in the humanities disseminate gray literature; professional humanities associations publish very little scholarly communication beyond editorial literature on the websites.
 
 Overall the sciences provide a more diverse and complete range of scholarly material for the public. Without the gray literature disseminated by scholarly communities within the humanities, very little humanities scholarly communication would be accessible on the open web.
@@ -34,7 +36,7 @@ The availability of scholarship is immediately noticeable when visiting the ESA�
 
 While not all articles in each issue of the peer-reviewed journals are accessible to readers, many of them are. Articles within the journals appear in the traditional format, both in full-text versions within the browser and as downloadable PDFs. Journal articles are permanently digitally archived by [Portico.org](http://www.portico.org/digital-preservation/), run by [JSTOR](http://www.jstor.org/), in order to assure their accessibility and preservation online. The ESA’s publications mission generally serves to make research available, address the needs of their readership, and make all their issues accessible in a digital format.
 
-This is a recurring theme among the three science associations included in this survey, as they discuss a commitment to providing accessibility of scholarship. [The International Association of Computer Science and Information Technology](http://www.iacsit.org/index.htm) (IACSIT), like the ESA, discusses their dedication to maintaining content available to members and non-members, stating that the “IACSIT Press publishes high quality, peer-reviewed conference articles, journals and books, primarily in electronic format on the Internet but also in print and other media. Many of our publications are freely accessible, i.e. without charge, in our on-line repository.” Access to publications is not considered to be a privilege for sites’ users, but rather it is demonstrated to be a necessity.
+This is a recurring theme among the three science associations included in this survey, as they discuss a commitment to providing accessibility of scholarship. [The International Association of Computer Science and Information Technology](http://www.iacsit.org) (IACSIT), like the ESA, discusses their dedication to maintaining content available to members and non-members, stating that the “IACSIT Press publishes high quality, peer-reviewed conference articles, journals and books, primarily in electronic format on the Internet but also in print and other media. Many of our publications are freely accessible, i.e. without charge, in our on-line repository.” Access to publications is not considered to be a privilege for sites’ users, but rather it is demonstrated to be a necessity.
 
 Also like the ESA, IACSIT publishes these articles in a traditional journal format, with peer-reviewed literature that includes citations, arguments and data. IACSIT offers readers eight journals on different areas in the field, which demonstrates that even within the larger field the associations cater to particular areas of study. Rather than having one journal to encompass the vast range of scholarly interests in computer sciences and information technology, the associations publish several journals to cater to the interests of their visitors.
 
@@ -64,7 +66,7 @@ While the sciences grasp the value of offering several forms of scholarly commun
 
 However, not all fields within the humanities treat scholarly communication the same way as the AHA. The [American Academy of Religion](http://www.aarweb.org/) (AAR) showcases their publications toward the bottom of their homepage, rather than featuring these items. Most featured is *Religious Studies News*, which the AAR states “is not a scholarly journal. It is the newspaper record of the field,” much like *Perspectives*, the newspaper contains editorial literature and does not consist of any gray literature. Although sites like ESA featured some gray material including blogs and podcasts, the AAR site does not have any material that could be deemed gray literature.
 
-One area in which the AAR site surpasses the AHA in available scholarly communication is in the ability to view some journal issues online. This is not to say the AAR provides an expansive view of journal articles to the public, but whereas the AHA provided no access, the AAR gives a small window. The [*Journal of the American Academy of Religion*](jaar.oxfordjournals.org) (*JAAR*) links to its publication at Oxford University Press, and while the entire journal is not accessible like those on IACSIT’s site, some content can be found.
+One area in which the AAR site surpasses the AHA in available scholarly communication is in the ability to view some journal issues online. This is not to say the AAR provides an expansive view of journal articles to the public, but whereas the AHA provided no access, the AAR gives a small window. The [*Journal of the American Academy of Religion*](https://jaar.oxfordjournals.org) (*JAAR*) links to its publication at Oxford University Press, and while the entire journal is not accessible like those on IACSIT’s site, some content can be found.
 
 For example, the March 2013 issue, volume 81 issue 1, provides five open access articles for readers. Four of the items are full journal articles, while the fifth piece of literature is a short analysis of some religious photography. All articles are scholarly in nature, and can be downloaded as a PDF or viewed within a browser. Although there were five articles available in the March 2013 issue, the previous issue, December 2012 only contained one accessible article, and the issue before, September 2012, did not have any open access material at all showing that access inexplicably varies.
 
@@ -112,52 +114,40 @@ There is much that needs to be done in the humanities to promote the benefits of
 
 ## Appendix A: Sciences Sites Reviewed
 
-1\. [International Association of Computer Sciences and Information Technology](http://www.iacsit.org/index.htm)
+1.  [International Association of Computer Sciences and Information Technology](http://www.iacsit.org)\
+    IACSIT is an international organization that unites scholars and professional in the field of computer sciences. Their main mission is to facilitate research within the field, as well as establish communication among its members and to enhance collaboration. There is a strong emphasis on conferences on their site, showing that this is essential to membership.
 
-IACSIT is an international organization that unites scholars and professional in the field of computer sciences. Their main mission is to facilitate research within the field, as well as establish communication among its members and to enhance collaboration. There is a strong emphasis on conferences on their site, showing that this is essential to membership.
+2.  [Ecological Society of America](http://www.esa.org/esa/)\
+    Founded in 1915, the ESA seeks to promote communication among ecologists in order to advance the field. The association has over 10,000 members in the various areas of the field, including scholars, researchers, and professionals. The ESA provides support to its members, in addition to reaching out to community and media, and working with environmental policy.
 
-2\. [Ecological Society of America](http://www.esa.org/esa/)
+3.  [American Association for the Advancement of Science](http://www.aaas.org/)\
+    The AAAS serves 261 societies and affiliations of science, encompassing approximately 10 million total members. It is headquartered in Washington, D.C. and Cambridge, U.K. Founded in 1848, the AAAS seeks to advance the field of science and its role in society.
 
-Founded in 1915, the ESA seeks to promote communication among ecologists in order to advance the field. The association has over 10,000 members in the various areas of the field, including scholars, researchers, and professionals. The ESA provides support to its members, in addition to reaching out to community and media, and working with environmental policy.
+4.  [ArXiv.org](http://arxiv.org/)\
+    Run by Cornell University Library, ArXiv.org has been publishing scholarly journal articles in digital format for its readers since 1991. This archive is also maintained by the arXiv Scientific Advisory Board and the arXiv Sustainability Advisory Group.
 
-3\. [American Association for the Advancement of Science](http://www.aaas.org/)
+5.  [PLoS Biodiversity Hubs](http://hubs.plos.org/web/biodiversity/)\
+    Developed by the Public Library of Science, the Biodiversity Hub publishes research about the issues affecting the field. It seeks to promote communication between scholars, and emphasizes the use of social media to do so. The site aggregates digital material from existing journals to publish.
 
-The AAAS serves 261 societies and affiliations of science, encompassing approximately 10 million total members. It is headquartered in Washington, D.C. and Cambridge, U.K. Founded in 1848, the AAAS seeks to advance the field of science and its role in society.
-
-4\. [ArXiv.org](http://arxiv.org/)
-
-Run by Cornell University Library, ArXiv.org has been publishing scholarly journal articles in digital format for its readers since 1991. This archive is also maintained by the arXiv Scientific Advisory Board and the arXiv Sustainability Advisory Group.
-
-5\. [PLoS Biodiversity Hubs](http://hubs.plos.org/web/biodiversity/)
-
-Developed by the Public Library of Science, the Biodiversity Hub publishes research about the issues affecting the field. It seeks to promote communication between scholars, and emphasizes the use of social media to do so. The site aggregates digital material from existing journals to publish.
-
-6\. [Science.I/O](http://science.io/)
-
+6.  [Science.I/O](http://science.io/)\
 Science.I/O publishes research articles in the field of computer science. Users can create personalized research feeds that feature information from journals. Visitors can choose from research in eleven areas in the field.
 
 ## Appendix B: Humanities Sites Reviewed
 
-1\. [American Academy of Religion](https://www.aarweb.org/)
+1.  [American Academy of Religion](https://www.aarweb.org/)\
+    The AAR boasts over 11,000 members and emphasizes the need for critical thought about religion and religious ideology. Comprised of scholars and teachers, the association seeks to broaden the public understanding religion.
 
-The AAR boasts over 11,000 members and emphasizes the need for critical thought about religion and religious ideology. Comprised of scholars and teachers, the association seeks to broaden the public understanding religion.
+2.  [American Sociological Association](http://www.asanet.org)\
+    The ASA seeks to demonstrate the value of sociology as a public field to benefit the public. The association has over 14,000 members, with approximately 20 percent who work in government, business and non-profit organizations. They have programs worldwide to show the importance of studying sociology.
 
-2\. [American Sociological Association](http://www.asanet.org)
+3.  [Modern Language Association](http://www.mla.org/)\
+    Founded in 1883, the MLA unites scholars who teach language and literature. With 30,000 members, the association serves English and foreign language teachers and scholars. Over 100 countries are represented in MLA’s members.
 
-The ASA seeks to demonstrate the value of sociology as a public field to benefit the public. The association has over 14,000 members, with approximately 20 percent who work in government, business and non-profit organizations. They have programs worldwide to show the importance of studying sociology.
+4.  [MLA Commons](http://commons.mla.org/)\
+    Launched in early 2013, the MLA Commons allows members to communicate through various networks on the site. Feature like Groups and Blogs allow members and the public to hold discussions about current research and trends in the field.
 
-3\. [Modern Language Association](http://www.mla.org/)
+5.  [Digital Humanities Now](http://digitalhumanitiesnow.org/)\
+    Run by the Center for History and New Media, DH Now aggregates and publishes material from scholars related to digital humanities. The site also publishes news items, including jobs, resources, and calls for papers. The community finds publishable items through specialized search feeds.
 
-Founded in 1883, the MLA unites scholars who teach language and literature. With 30,000 members, the association serves English and foreign language teachers and scholars. Over 100 countries are represented in MLA’s members.
-
-4\. [MLA Commons](http://commons.mla.org/)
-
-Launched in early 2013, the MLA Commons allows members to communicate through various networks on the site. Feature like Groups and Blogs allow members and the public to hold discussions about current research and trends in the field.
-
-5\. [Digital Humanities Now](http://digitalhumanitiesnow.org/)
-
-Run by the Center for History and New Media, DH Now aggregates and publishes material from scholars related to digital humanities. The site also publishes news items, including jobs, resources, and calls for papers. The community finds publishable items through specialized search feeds.
-
-6\. [Religion Dispatches](http://www.religiondispatches.org/)
-
-Religion Dispatches is an online magazine that addresses the role of religion in politics and culture. It offers readers pieces from journalists and scholars, as well as blogs.
+6.  [Religion Dispatches](http://www.religiondispatches.org/)\
+    Religion Dispatches is an online magazine that addresses the role of religion in politics and culture. It offers readers pieces from journalists and scholars, as well as blogs.

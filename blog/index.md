@@ -1,4 +1,4 @@
 ---
-layout: layouts/blog-home
+layout: blog-home
 class: "blog blog-home"
 ---

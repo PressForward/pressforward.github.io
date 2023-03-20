@@ -1,12 +1,14 @@
 ---
-layout: "layouts/default"
+layout: "default"
 ---
 
 <article>
   <div class="container-fluid">
       <h1>{{ title }}</h1>
-      <p>{{ authors }}</p>
-      <p>{{ page.date | date: "%b %-d, %Y" }}</p>
-      {{ content }}
+      <div>{{ authors }}</div>
+      <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+      <div>
+        {{ content }}
+      </div>
   </div>
 </article>

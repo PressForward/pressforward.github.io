@@ -8,6 +8,8 @@ tags:
 
 It has been six months since *Digital Humanities Now* [relaunched in version 2.0](http://www.dancohen.org/2011/11/02/digital-humanities-now-2-0-bigger-and-better-with-a-new-review-process/) through the support of the PressForward Project, funded by the Sloan Foundation. The [first version](http://www.dancohen.org/2009/11/18/introducing-digital-humanities-now/), run between 2009 and 2010, was an automated survey of Twitter. [Version 1.5](http://www.dancohen.org/2011/11/02/digital-humanities-now-2-0-bigger-and-better-with-a-new-review-process/) was a one-man operation by [Dan Cohen](http://www.dancohen.org/) to vet the material using traditional methods of editorial section.
 
+---
+
 Now [four editors](http://digitalhumanitiesnow.org/how-this-works/) spend a total of 15-20 hours a week to survey approximately 1,000 items per week produced or shared by digital humanists in all corners of the field.
 
 In the past six months, we have winnowed down more than 20,000 items to highlight 175 pieces as Editors’ Choice, along with 7 “round-ups” that grouped together related posts. We have shared 586 news items, including 218 new resources, 144 job announcements, 111 calls for papers or participation, 65 reports, and 30 funding opportunities.
@@ -30,7 +32,6 @@ What will we do next?
 
 *   Strongly encourage everyone, and especially women and collaborative groups, to share more work. We can only highlight what we see and can link to. We will work to expand the networks that we survey, and find ways to supplement the currently limited group of mostly self-nominated individuals.
 
-**
-Can you think of other ways we can improve? Please add your suggestions [in a comment](http://digitalhumanitiesnow.org/2012/05/six-month-review-of-digital-humanities-now/) or email us at dhnow@pressforward.org.**
+**Can you think of other ways we can improve? Please add your suggestions [in a comment](http://digitalhumanitiesnow.org/2012/05/six-month-review-of-digital-humanities-now/) or email us at dhnow@pressforward.org.**
 
 Cross posted from [digitalhumanitiesnow.org](http://digitalhumanitiesnow.org/2012/05/six-month-review-of-digital-humanities-now/).
