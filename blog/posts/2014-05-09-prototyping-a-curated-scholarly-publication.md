@@ -4,7 +4,7 @@ authors:
   - Joan Fragaszy Troyano
 tags:
   - Project Reports
-  - White Papers
+  - Guides
 excerpt: 'Is it possible for scholars to scan the rapidly growing corpus of scholarship available on the open web? How can communities identify relevant and timely materials and share these discoveries with peers? Anyone who tries to stay current with new research and conversations in their field -- ourselves included -- faces an overwhelming amount of material scattered across the web. For the past three years the [PressForward team](/credits/ "Team") has been experimenting with methods for catching and highlighting web-based scholarly communication by concurrently developing our [Digital Humanities Now](http://digitalhumanitiesnow.org "Digital Humanities Now") (*DHNow*) publication and our [PressForward plugin](https://wordpress.org/plugins/pressforward/ "The PressForward Plugin") for WordPress. [Read about how we prototyped a scalable and reproducible publication model here](/prototyping-a-curated-scholarly-publication "Prototyping a Curated Scholarly Publication").'
 ---
 
