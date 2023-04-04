@@ -4,11 +4,35 @@ layout: "default"
 
 <article>
   <div class="container-fluid">
-      <h1>{{ title }}</h1>
-      <div>{{ authors }}</div>
+    <h1>{{ title }}</h1>
+
+    <p class="post-meta">
       <time>{{ page.date | date: "%b %-d, %Y" }}</time>
-      <div>
-        {{ content }}
-      </div>
+      by
+      {% if authors.size == 1 -%}
+        {{ authors }}
+      {%- elsif authors.size == 2 -%}
+        {{ authors[0] }}
+        and
+        {{ authors[1] }}
+      {%- elsif authors.size > 2 -%}
+        {{- authors[0] -}}
+        {%- assign size_limit = authors.size | minus: 2 -%}
+        {%- for author in authors offset:1 limit: size_limit -%}
+          , {{ author -}}
+        {%- endfor -%}
+        , and {{ authors.last }}
+      {%- endif -%}
+      <span class="categories">
+        {% assign categories = tags | filterTags %}
+
+        {%- for category in categories -%}
+          <span class="comma">,</span>
+          <a href="/category/{{ category | slugify }}">{{ category }}</a>
+        {%- endfor -%}
+      </span>
+    </p>
+
+    <div class="post-content">{{ content }}</div>
   </div>
 </article>

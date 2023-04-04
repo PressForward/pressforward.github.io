@@ -1,5 +1,13 @@
 .blog-home {
-  h2 {
-    font-size: inherit;
+  .container-fluid {
+    position: relative;
+
+    @media (min-width: @sm) {
+      max-width: 709px; // ~8 Columns
+    }
+  }
+
+  .col-sm-9 {
+    //padding-left: 11.55%;
   }
 }

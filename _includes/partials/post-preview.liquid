@@ -1,0 +1,34 @@
+<article class="post post-preview">
+  <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+  <div class="post-meta">
+    <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+    by
+    {% if post.data.authors.size == 1 -%}
+      {{ post.data.authors }}
+    {%- elsif post.data.authors.size == 2 -%}
+      {{ post.data.authors[0] }}
+      and
+      {{ post.data.authors[1] }}
+    {%- elsif post.data.authors.size > 2 -%}
+      {{- post.data.authors[0] -}}
+      {%- assign size_limit = post.data.authors.size | minus: 2 -%}
+      {%- for author in post.data.authors offset:1 limit: size_limit -%}
+        , {{ author -}}
+      {%- endfor -%}
+      , and {{ post.data.authors.last }}
+    {%- endif -%}
+    <span class="categories">
+      {% assign categories = post.data.tags | filterTags %}
+
+      {%- for category in categories -%}
+        <span class="comma">,</span>
+        <a href="/category/{{ category | slugify }}">{{ category }}</a>
+      {%- endfor -%}
+    </span>
+  </div>
+  {%- if post.data.excerpt -%}
+    <p>{{ post.data.excerpt | md | replace: "<p>", "" | replace: "</p>", "" }}</p>
+  {%- else -%}
+    <p>{{ post.data.page.excerpt | md | replace: "<p>", "" | replace: "</p>", "" }}</p>
+  {%- endif -%}
+</article>

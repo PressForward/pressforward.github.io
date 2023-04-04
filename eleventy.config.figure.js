@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
         if (caption) {
           caption = yield liquidEngine.parseAndRender(caption, context)
           caption = markdownIt({ html: true, breaks: true }).render(caption)
-          caption = caption.replace('<p>', '').replace('</p>', '')
+          caption = caption.replaceAll('<p>', '').replaceAll('</p>', '')
           caption = `<figcaption>${caption}</figcaption>`
         } else {
           caption = ''

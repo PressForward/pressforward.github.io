@@ -1,0 +1,34 @@
+.category-nav {
+  margin-bottom: @section-mobile-spacing * 3 / 4 - 22px;
+
+  @media (min-width: @sm) {
+    margin-bottom: @section-spacing * 3 / 4 - 23px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    line-height: @space-md;
+    padding: @space-sm @space-md;
+    border-radius: 20px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &.selected {
+      color: @white;
+      background-color: @brand-primary;
+    }
+  }
+}

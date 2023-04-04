@@ -1,21 +1,96 @@
 .post {
   font-size: @blog-font-size;
   line-height: @blog-line-height;
+  word-break: break-word; // Break long links
 
-  h1 {
-    @media (min-width: @md) {
-      width: 126%;
-      margin-left: -13%;
+  h2, h3, h4 {
+    margin-top: 1.5 * @blog-font-size * 1.5;
+    margin-bottom: -9px;
+  }
+
+  // 32px, 42px: Upper limit
+  // 27px, 32px: interpolated
+  // 23px, 24px: interpolated
+  // 19px, 19px: lower limit
+
+  h1, .h1 {
+    font-size: 32px;
+    text-align: initial;
+    letter-spacing: -0.01em;
+    word-spacing: -0.035em;
+    margin-top: @section-mobile-spacing - 39px;
+    margin-bottom: 0;
+
+    @media (min-width: @sm) {
+      font-size: 42px;
+      text-align: center;
+      margin-top: @section-spacing - 51px;
     }
   }
 
-  div > p:first-child {
-    font-size: @font-size-large;
+  h2, .h2 {
+    font-size: 27px;
+    letter-spacing: -0.005em;
+    word-spacing: -0.035em;
 
-    @media (min-width: @md) {
-      font-size: 21px;
-      width: 126%; // 10 columns
-      margin-left: -13%;
+    @media (min-width: @sm) {
+      font-size: 32px;
+    }
+  }
+
+  h3, .h3 {
+    font-size: 23px;
+    letter-spacing: -0.0025em;
+    word-spacing: -0.035em;
+
+    @media (min-width: @sm) {
+      font-size: 24px;
+    }
+  }
+
+  h4, .h4 {
+    font-size: 19px;
+  }
+
+  .post-meta {
+    font-size: @font-size-small;
+    font-weight: 500;
+    color: @blue-dark;
+    margin: 4px 0 (60px - 19px) 0;
+
+    @media (min-width: @sm) {
+      text-align: center;
+      margin: 7px 0 (96px - 19px) 0;
+    }
+
+    .categories {
+      &::before {
+        content: " · ";
+      }
+
+      a {
+        color: inherit;
+
+        &:hover {
+          color: @link-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .comma {
+      &:first-child {
+        display: none;
+      }
+    }
+  }
+
+  .post-content > p:first-child {
+    font-size: 19px;
+
+    @media (min-width: @sm) {
+      font-size: 20px;
+      line-height: 1.5;
     }
   }
 
@@ -25,35 +100,99 @@
 
   img {
     display: block;
+    margin-block: 37px 35px;
     margin-inline: auto;
+    max-width: 100%;
+    height: auto;
 
     &.xs {
-      max-width: 339px;
+      width: 339px;
     }
 
     &.sm {
-      max-width: 524px;
+      width: 524px;
     }
-  }
 
-  :target {
-    background: yellow;
+    &.lg {
+      @media (min-width: @md) {
+        max-width: 126%;
+        margin-left: -13%;
+      }
+    }
   }
 
   figure {
     text-align: center;
-    margin-inline: 0;
+    margin: 37px 0 35px 0;
+
+    & + figure {
+      margin-top: 46px;
+    }
 
     img {
       display: initial;
+      margin: 0;
     }
   }
 
   figcaption {
     font-size: 15px;
+    margin: 12px 0 -7px 0;
+  }
+
+  ol, ul {
+    margin: 1.5em 0;
+  }
+
+  ol ul,
+  ul ol {
+    margin: 0;
   }
 
   sup {
     line-height: 1;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #ebebeb;
+    margin: -3px 0 0 0;
+  }
+
+  :target {
+    background: rgba(@brand-primary, 0.16);
+  }
+
+  &.post-preview {
+    padding: 0;
+
+    h2 {
+      font-size: 23px;
+      margin-top: @blog-font-size * 1.5;
+      margin-bottom: 0;
+
+      @media (min-width: @sm) {
+        font-size: 24px;
+      }
+
+      a {
+        color: inherit;
+
+        &:hover {
+          color: @link-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .post-meta {
+      text-align: left;
+      margin-top: 2px;
+      margin-bottom: -18px; // Half of font size
+
+      @media (min-width: @sm) {
+        margin-top: 1px;
+      }
+    }
   }
 }
