@@ -13,7 +13,7 @@ permalink: /category/{{ tag | slugify }}/
 
 <div class="container-fluid">
   <h1>Blog</h1>
-  <nav class="category-nav">
+  <pf-scroll-nav class="category-nav">
     <ul>
       <li><a href="/blog/">All Posts</a></li>
       {% assign categories = collections | getAllTags | filterTags %}
@@ -22,7 +22,7 @@ permalink: /category/{{ tag | slugify }}/
         <li><a href="/category/{{ category | slugify }}" {% if category == tag %}class="selected"{% endif %}>{{ category }}</a></li>
       {%- endfor -%}
     </ul>
-  </nav>
+  </pf-scroll-nav>
   {%- for post in collections[ tag ] reversed -%}
     {%- include "partials/post-preview" -%}
   {%- endfor -%}

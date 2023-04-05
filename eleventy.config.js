@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
   // Copy assets to _site
   eleventyConfig.addPassthroughCopy('assets/images')
   eleventyConfig.addPassthroughCopy('assets/documents')
+  eleventyConfig.addPassthroughCopy('assets/javascripts')
 
   // Add markdown-it-attrs plugin
   eleventyConfig.amendLibrary('md', mdLib => mdLib.use(markdownItAttrs))

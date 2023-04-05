@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-fluid">
   <h1>Blog</h1>
-  <nav class="category-nav">
+  <pf-scroll-nav class="category-nav">
     <ul>
       <li><a href="/blog/" class="selected">All Posts</a></li>
       {% assign categories = collections | getAllTags | filterTags %}
@@ -13,7 +13,7 @@ layout: default
         <li><a href="/category/{{ category | slugify }}">{{ category }}</a></li>
       {%- endfor -%}
     </ul>
-  </nav>
+  </pf-scroll-nav>
   {% for post in collections.post reversed %}
     {% include "partials/post-preview" %}
   {% endfor %}

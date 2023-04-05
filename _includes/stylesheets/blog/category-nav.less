@@ -1,18 +1,29 @@
 .category-nav {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
   margin-bottom: @section-mobile-spacing * 3 / 4 - 22px;
 
   @media (min-width: @sm) {
+    justify-content: center;
+    overflow-x: visible;
     margin-bottom: @section-spacing * 3 / 4 - 23px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
   }
 
   ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
     white-space: nowrap;
+  }
+
+  li {
+    scroll-snap-align: start;
   }
 
   a {
