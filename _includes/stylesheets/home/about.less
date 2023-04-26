@@ -62,7 +62,7 @@
 
   .about-text {
     opacity: 0.84;
-    margin-bottom: @section-mobile-spacing - 16px;
+    margin-bottom: @section-mobile-spacing - 8px;
 
     @media (min-width: @sm) {
       columns: 2;
@@ -71,33 +71,30 @@
     }
   }
 
-  .chnm,
-  .sloan {
-    @media (min-width: 590px) and (max-width: @sm - 1px) {
-      grid-column-end: span 6;
-    }
-  }
-
-  .chnm {
-    padding-bottom: @grid-column-gap;
-
-    @media (min-width: 590px) {
-      padding-bottom: 0;
-      justify-self: end;
-    }
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: @grid-column-gap;
 
     @media (min-width: @sm) {
-      padding-right: @grid-column-gap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
+  .digital-scholar {
+    @media (min-width: @sm) {
+      margin-top: 2px;
     }
   }
 
   .sloan {
-    @media (min-width: 590px) {
+    margin-top: 5px;
+
+    @media (min-width: @sm) {
       margin-top: 3px;
-    }
-
-    @media (min-width: @sm) {
-      padding-left: @grid-column-gap;
     }
   }
 }
