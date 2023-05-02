@@ -27,6 +27,54 @@
     transform-origin: 100% 0;
   }
 
+  .triangles {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+
+  .triangle {
+    position: absolute;
+
+    polygon {
+      fill: currentColor;
+    }
+  }
+
+  .triangle-1 {
+    color: @blue-light;
+    transform: scale(0.5);
+    transform-origin: 100% 0;
+    top: 50px;
+    right: -22px;
+
+    @media (min-width: @sm) {
+      transform: initial;
+      top: calc(107px + @section-spacing-skew);
+      right: initial;
+      left: 50%;
+      color: @blue-light;
+      margin-left: min(35%, 425px);
+    }
+  }
+
+  .triangle-2 {
+    top: 20px;
+    right: 18px;
+    transform: scale(0.5);
+    transform-origin: 100% 0;
+    color: @blue;
+    display: none;
+
+    @media (min-width: @sm) {
+      display: block;
+      top: calc(82px + @section-spacing-skew);
+      right: initial;
+      left: calc(50% + 595px);
+      transform: initial;
+    }
+  }
+
   .container-fluid {
     position: relative;
   }

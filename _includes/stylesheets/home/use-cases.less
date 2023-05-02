@@ -10,6 +10,51 @@
     transform-origin: 100% 0;
   }
 
+  .triangles {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+
+  .triangle {
+    position: absolute;
+
+    polygon {
+      fill: currentColor;
+    }
+  }
+
+  .triangle-1 {
+    color: @blue-light;
+    display: none;
+
+    @media (min-width: @sm) {
+      display: block;
+      top: calc(360px + @section-spacing-skew);
+      left: calc(50% - 886px);
+    }
+  }
+
+  .triangle-2 {
+    top: 35px;
+    right: -29px;
+    transform: scale(0.5);
+    transform-origin: 100% 50%;
+    color: @blue;
+
+    @media (min-width: @sm) {
+      top: 77px;
+      right: initial;
+      left: 50%;
+      margin-left: min(50%, 768px);
+      transform: translateX(-202px);
+    }
+
+    @media (min-width: 1536px) {
+      top: calc(-8px + @section-spacing-skew);
+    }
+  }
+
   // Use margin instead of section padding as some values can be negative
   .container-fluid {
     margin-top: calc(@section-mobile-spacing - 11px + 10vw);
