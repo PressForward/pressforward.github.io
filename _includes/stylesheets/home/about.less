@@ -31,6 +31,10 @@
     position: absolute;
     inset: 0;
     overflow: hidden;
+
+    @media (min-width: @sm) {
+      background: url("/assets/images/about/background.svg") no-repeat center calc(-100px + @section-spacing-skew);
+    }
   }
 
   .triangle {
