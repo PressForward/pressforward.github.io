@@ -32,50 +32,95 @@
     inset: 0;
     overflow: hidden;
 
-    @media (min-width: @sm) {
-      background: url("/assets/images/about/background.svg") no-repeat center calc(-100px + @section-spacing-skew);
+    > .triangle {
+      position: absolute;
+
+      polygon {
+        fill: currentColor;
+      }
     }
-  }
 
-  .triangle {
-    position: absolute;
-
-    polygon {
-      fill: currentColor;
-    }
-  }
-
-  .triangle-1 {
-    color: @blue-light;
-    transform: scale(0.5);
-    transform-origin: 100% 0;
-    top: 50px;
-    right: -22px;
-
-    @media (min-width: @sm) {
-      transform: initial;
-      top: calc(107px + @section-spacing-skew);
-      right: initial;
-      left: 50%;
+    > .triangle-1 {
       color: @blue-light;
-      margin-left: min(35%, 425px);
+      transform: scale(0.5);
+      transform-origin: 100% 0;
+      top: 50px;
+      right: -22px;
+
+      @media (min-width: @sm) {
+        transform: initial;
+        top: calc(107px + @section-spacing-skew);
+        right: initial;
+        left: 50%;
+        color: @blue-light;
+        margin-left: min(35%, 425px);
+      }
+    }
+
+    > .triangle-2 {
+      top: 20px;
+      right: 18px;
+      transform: scale(0.5);
+      transform-origin: 100% 0;
+      color: @blue;
+      display: none;
+
+      @media (min-width: @sm) {
+        display: block;
+        top: calc(82px + @section-spacing-skew);
+        right: initial;
+        left: calc(50% + 595px);
+        transform: initial;
+      }
+    }
+
+    .background {
+      position: absolute;
+      left: 0;
+      top: calc(-100px + @section-spacing-skew);
+      width: 100%;
+      pointer-events: none;
+
+      .triangle-1 {
+        @media (max-width: @sm - 1px) {
+          display: none;
+        }
+      }
+
+      .triangle-2 {
+        display: none;
+
+        @media (min-width: @lg) {
+          display: initial;
+        }
+      }
     }
   }
 
-  .triangle-2 {
-    top: 20px;
-    right: 18px;
-    transform: scale(0.5);
-    transform-origin: 100% 0;
+  .triangle-3 {
+    bottom: 290px;
+    left: 82%;
     color: @blue;
-    display: none;
+    opacity: 0.25;
 
     @media (min-width: @sm) {
-      display: block;
-      top: calc(82px + @section-spacing-skew);
-      right: initial;
-      left: calc(50% + 595px);
-      transform: initial;
+      left: calc(50% + 288px);
+      bottom: 202px;
+    }
+
+    @media (min-width: @lg) {
+      display: none;
+    }
+  }
+
+  .triangle-4 {
+    bottom: 265px;
+    left: 9%;
+    color: @blue;
+    opacity: 0.25;
+
+    @media(min-width: @sm - 1px) {
+      display: none;
     }
   }
 
