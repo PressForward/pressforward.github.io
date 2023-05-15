@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets/images')
   eleventyConfig.addPassthroughCopy('assets/documents')
   eleventyConfig.addPassthroughCopy('assets/javascripts')
+  eleventyConfig.addPassthroughCopy('favicon.ico')
 
   // Add markdown-it-attrs plugin
   eleventyConfig.amendLibrary('md', mdLib => mdLib.use(markdownItAttrs))
