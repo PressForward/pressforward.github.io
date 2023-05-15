@@ -1,0 +1,43 @@
+<svg class="triangles" role="presentation" xmlns="http://www.w3.org/2000/svg" width="2560" height="800" viewBox="0 0 2560 800" preserveAspectRatio="xMidYMin slice">
+  <polygon points="554 455.5 621 598 753 426 554 455.5" fill="#5c5ce5"/>
+  <polygon points="632 314 666.253 410.224 703 341 632 314" fill="#5c5ce5" opacity="0.9"/>
+  <polygon points="753 371 816 444 850 360 753 371" fill="#5c5ce5" opacity="0.95"/>
+  <polygon points="750 285 772 331 837 304 750 285" fill="#5c5ce5" opacity="0.85"/>
+  <polygon points="878 259 890 306 938 263 878 259" fill="#5c5ce5" opacity="0.75"/>
+  <polygon points="873 347 904 360 917 341 873 347" fill="#5c5ce5" opacity="0.8"/>
+  <polygon points="946 303 964 341 1008 313 946 303" fill="#80d8ff" opacity="0.7"/>
+  <polygon points="998.846 247.21 1005.551 272.03 1040.506 248.405 998.846 247.21" fill="#5c5ce5" opacity="0.55"/>
+  <polygon points="1045 313 1051 329 1077 319 1045 313" fill="#5c5ce5" opacity="0.55"/>
+  <polygon points="1081 262 1079 279 1104 273 1081 262" fill="#5c5ce5" opacity="0.5"/>
+  <polygon points="1463.565 265.259 1460.68 285.939 1486.756 277.875 1463.565 265.259" fill="#5c5ce5" opacity="0.5"/>
+  <polygon points="1522.504 301.863 1516.204 323.036 1554.641 324.649 1522.504 301.863" fill="#80d8ff" opacity="0.55"/>
+  <polygon points="1521 237 1514 264 1552 264 1521 237" fill="#5c5ce5" opacity="0.6"/>
+  <polygon points="1598.606 265 1563.5 293.723 1638.5 301.512 1598.606 265" fill="#5c5ce5" opacity="0.75"/>
+  <polygon points="1653.389 232.845 1633.973 262.394 1688.397 265.427 1653.389 232.845" fill="#80d8ff" opacity="0.7"/>
+  <polygon points="1934.958 349 1815.471 463.353 2023 475 1934.958 349" fill="#5c5ce5"/>
+  <polygon points="1720.609 248.223 1700.948 299.3 1735.921 283.311 1720.609 248.223" fill="#5c5ce5" opacity="0.8"/>
+  <polygon points="1781.592 185.858 1750.11 245 1832 239 1781.592 185.858" fill="#5c5ce5" opacity="0.85"/>
+  <polygon points="1943 161 1871 229 2005 237 1943 161" fill="#5c5ce5" opacity="0.95"/>
+  <polygon points="580 177 554 287 702 274 580 177" fill="#5c5ce5" opacity="0.85"/>
+  <polygon points="761 208 725 243 793 241 761 208" fill="#80d8ff" opacity="0.8"/>
+  <polygon points="844 234 819 268 850 260 844 234" fill="#5c5ce5" opacity="0.75"/>
+  <polygon points="881 463 893 470 896 455 881 463" fill="#5c5ce5" opacity="0.25"/>
+  <polygon points="868.044 166.809 869.087 180.984 888.525 168.055 868.044 166.809" fill="#5c5ce5" opacity="0.25"/>
+  <polygon class="triangle-2" points="1204 98.4 1201 108.6 1219 104.85 1204 98.4" fill="#5c5ce5" opacity="0.25"/>
+  <polygon class="triangle-4"points="1153 392 1140 401 1148 407 1153 392" fill="#5c5ce5" opacity="0.25"/>
+  <polygon points="1666.353 163 1661 173.706 1674 171.412 1666.353 163" fill="#5c5ce5" opacity="0.25"/>
+  <polygon points="1926 101 1920 109 1934 111 1926 101" fill="#5c5ce5" opacity="0.25"/>
+  <polygon class="triangle-1" points="1553 378 1546 387 1566 388 1553 378" fill="#5c5ce5" opacity="0.25"/>
+  <polygon points="544 100 543 110 558 106 544 100" fill="#5c5ce5" opacity="0.25"/>
+  <polygon points="1717.711 321.539 1669.994 367.674 1754.735 380.755 1717.711 321.539" fill="#80d8ff" opacity="0.9"/>
+  <polygon points="1805.429 289 1759 347.036 1852 351 1805.429 289" fill="#5c5ce5" opacity="0.9"/>
+  <polygon points="1650.208 324.755 1633.396 346.151 1665 343.667 1650.208 324.755" fill="#5c5ce5" opacity="0.75"/>
+  <polygon class="triangle-3" points="1429 222.5 1424.333 231.167 1437.667 229.833 1429 222.5" fill="#5c5ce5" opacity="0.25"/>
+  <polygon points="577 364.307 389 319 461 457 577 364.307" fill="#80d8ff"/>
+  <polygon points="393 432 222 678 96.146 373.345 393 432" fill="#5c5ce5"/>
+  <polygon points="166 149 262 297.296 463.5 220.427 166 149" fill="#5c5ce5"/>
+  <polygon points="1987.541 342.36 2091 219 2143 339 1987.541 342.36" fill="#80d8ff"/>
+  <polygon points="2268.862 302.296 2083.919 566.225 2422 535 2268.862 302.296" fill="#5c5ce5"/>
+  <polygon points="1901 265.5 1871 319.5 1963 317 1901 265.5" fill="#5c5ce5"/>
+  <polygon points="2315.12 107.722 2187.637 247.954 2463 276 2315.12 107.722" fill="#5c5ce5"/>
+</svg>

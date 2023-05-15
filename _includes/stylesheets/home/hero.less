@@ -27,6 +27,52 @@
 
     @media (min-width: @sm) {
       background: radial-gradient(closest-side, #3d3d99, @blue-dark);
+      background-position: center 38px;
+    }
+  }
+
+  .triangles {
+    position: absolute;
+    left: 0;
+    top: -32px;
+    width: 100%;
+    height: 800px;
+    pointer-events: none;
+
+    @media (min-width: 480px) {
+      top: -78px;
+    }
+
+    @media (min-width: @sm) {
+      top: 0;
+    }
+
+    .triangle-1 {
+      @media (max-width: @sm - 1px) {
+        transform: translateY(-30px);
+      }
+    }
+
+    .triangle-2 {
+      @media (min-width: 480px) and (max-width: @sm - 1px) {
+        transform: translateY(46px);
+      }
+    }
+
+    .triangle-3 {
+      @media (max-width: 480px - 1px) {
+        transform: translate(-16px, -58px);
+      }
+
+      @media (min-width: 480px) and (max-width: @sm - 1px) {
+        transform: translateY(8px);
+      }
+    }
+
+    .triangle-4 {
+      @media (max-width: @sm - 1px) {
+        transform: translateY(-30px);
+      }
     }
   }
 
@@ -35,11 +81,11 @@
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin-top: @section-mobile-spacing - 42px;
+    margin-top: @section-mobile-spacing - 43px;
     margin-bottom: @space-xl - 9px;
 
     @media (min-width: @sm) {
-      margin-top: @section-spacing - 69px;
+      margin-top: @section-spacing - 56px;
       margin-bottom: @space-xxl - 13px;
     }
 
