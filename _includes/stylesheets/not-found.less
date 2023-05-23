@@ -1,0 +1,35 @@
+body:has(.not-found) {
+  background:
+    url("/assets/images/not-found/triangles.svg")
+    no-repeat
+    center 120px e("/")
+    1024px
+    @blue-dark;
+
+  @media (min-width: @sm) {
+    background-position: center top;
+    background-size: initial;
+  }
+}
+
+.not-found {
+  color: @white;
+  text-align: center;
+
+  h1 {
+    color: @white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: @section-mobile-spacing - 43px;
+    margin-bottom: 0;
+
+    @media (min-width: @sm) {
+      margin-top: @section-spacing - 56px;
+      margin-bottom: @space-xxl - 23px;
+    }
+  }
+
+  .lead {
+    font-size: @font-size-large;
+  }
+}
