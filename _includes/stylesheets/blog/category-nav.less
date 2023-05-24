@@ -58,11 +58,19 @@
       text-decoration: none;
     }
 
+    &:focus-visible {
+      outline-offset: -3px;
+    }
+
     &.selected {
       color: @white;
       background-color: @brand-primary;
       position: relative;
       z-index: 1; // Above gradient
+
+      &:focus-visible {
+        outline-offset: 2px;
+      }
     }
   }
 }

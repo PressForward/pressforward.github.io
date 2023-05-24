@@ -25,9 +25,14 @@
     display: block;
     padding: @space-sm;
     color: inherit;
+    outline-offset: -3px;
 
     @media (min-width: @sm) {
       padding: @space-sm @space-md;
+    }
+
+    &:focus-visible {
+      outline-offset: -3px;
     }
   }
 

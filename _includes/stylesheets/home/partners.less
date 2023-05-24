@@ -66,12 +66,17 @@
     @media (min-width: @lg) {
       aspect-ratio: 1.32;
     }
+  }
 
-    a {
-      opacity: 0.7;
-      transition: opacity 0.15s ease;
+  a {
+    @media (min-width: @sm) {
+      transform: translateY(var(--y));
+    }
 
-      &:hover {
+    &:focus-visible {
+      outline-offset: @space-md;
+
+      img {
         opacity: 1;
       }
     }
@@ -80,10 +85,15 @@
   img {
     width: auto;
     height: calc(var(--height) * 3 / 4);
+    opacity: 0.7;
+    transition: opacity 0.15s ease;
 
     @media (min-width: @sm) {
       height: var(--height);
-      transform: translateY(var(--y));
+    }
+
+    &:hover {
+      opacity: 1;
     }
   }
 }
