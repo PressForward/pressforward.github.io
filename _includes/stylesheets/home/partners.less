@@ -1,13 +1,12 @@
 .partners {
-  padding-bottom: @section-mobile-spacing - 17px + 5px;
+  padding-bottom: rem(@section-mobile-spacing - 17px + 5px);
 
   @media (min-width: @sm) {
-    padding-bottom: calc(@section-spacing - 53px + @section-spacing-skew);
+    padding-bottom: calc(rem(@section-spacing) - rem(53px) + @section-spacing-skew);
   }
 
   @media (min-width: @lg) {
-    //padding-bottom: @section-spacing - 63px + 12px;
-    padding-bottom: calc(@section-spacing - @section-spacing-skew);
+    padding-bottom: calc(rem(@section-spacing) - @section-spacing-skew);
   }
 
   ul {

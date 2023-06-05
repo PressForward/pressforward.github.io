@@ -1,9 +1,9 @@
 .blog {
-  font-size: 18px;
-  padding-bottom: @section-mobile-spacing - 36px;
+  font-size: @blog-font-size;
+  padding-bottom: rem(@section-mobile-spacing - 36px);
 
   @media (min-width: @sm) {
-    padding-bottom: @section-spacing - 36px;
+    padding-bottom: rem(@section-spacing - 36px);
   }
 
   .container-fluid {
@@ -15,12 +15,12 @@
   }
 
   h1 {
-    margin-top: @section-mobile-spacing - 43px;
+    margin-top: rem(@section-mobile-spacing - 43px);
     text-align: center;
-    margin-bottom: 15px; // Same spacing as between post previews
+    margin-bottom: rem(15px); // Same spacing as between post previews
 
     @media (min-width: @sm) {
-      margin-top: @section-spacing - 56px;
+      margin-top: rem(@section-spacing - 56px);
     }
   }
 }

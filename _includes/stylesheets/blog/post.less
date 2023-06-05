@@ -4,8 +4,8 @@
   word-break: break-word; // Break long links
 
   h2, h3, h4 {
-    margin-top: 1.5 * @blog-font-size * 1.5;
-    margin-bottom: -9px;
+    margin-top: calc(1.5 * @blog-font-size * 1.5);
+    margin-bottom: rem(-9px);
   }
 
   // 32px, 42px: Upper limit
@@ -14,53 +14,53 @@
   // 19px, 19px: lower limit
 
   h1, .h1 {
-    font-size: 32px;
+    font-size: rem(32px);
     text-align: initial;
     letter-spacing: -0.01em;
     word-spacing: -0.035em;
-    margin-top: @section-mobile-spacing - 39px;
+    margin-top: rem(@section-mobile-spacing - 39px);
     margin-bottom: 0;
 
     @media (min-width: @sm) {
-      font-size: 42px;
+      font-size: rem(42px);
       text-align: center;
-      margin-top: @section-spacing - 51px;
+      margin-top: rem(@section-spacing - 51px);
     }
   }
 
   h2, .h2 {
-    font-size: 27px;
+    font-size: rem(27px);
     letter-spacing: -0.005em;
     word-spacing: -0.035em;
 
     @media (min-width: @sm) {
-      font-size: 32px;
+      font-size: rem(32px);
     }
   }
 
   h3, .h3 {
-    font-size: 23px;
+    font-size: rem(23px);
     letter-spacing: -0.0025em;
     word-spacing: -0.035em;
 
     @media (min-width: @sm) {
-      font-size: 24px;
+      font-size: rem(24px);
     }
   }
 
   h4, .h4 {
-    font-size: 19px;
+    font-size: rem(19px);
   }
 
   .post-meta {
     font-size: @font-size-small;
     font-weight: 500;
     color: @blue-dark;
-    margin: 4px 0 (60px - 19px) 0;
+    margin: rem(4px) 0 rem(60px - 19px) 0;
 
     @media (min-width: @sm) {
       text-align: center;
-      margin: 7px 0 (96px - 19px) 0;
+      margin: rem(7px) 0 rem(96px - 19px) 0;
     }
 
     .categories {
@@ -86,10 +86,10 @@
   }
 
   .post-content > p:first-child {
-    font-size: 19px;
+    font-size: rem(19px);
 
     @media (min-width: @sm) {
-      font-size: 20px;
+      font-size: rem(20px);
       line-height: 1.5;
     }
   }
@@ -100,7 +100,7 @@
 
   img {
     display: block;
-    margin-block: 37px 35px;
+    margin-block: rem(37px) rem(35px);
     margin-inline: auto;
     max-width: 100%;
     height: auto;
@@ -123,10 +123,10 @@
 
   figure {
     text-align: center;
-    margin: 37px 0 35px 0;
+    margin: rem(37px) 0 rem(35px) 0;
 
     & + figure {
-      margin-top: 46px;
+      margin-top: rem(46px);
     }
 
     img {
@@ -136,8 +136,8 @@
   }
 
   figcaption {
-    font-size: 15px;
-    margin: 12px 0 -7px 0;
+    font-size: @font-size-small;
+    margin: rem(12px) 0 rem(-7px) 0;
   }
 
   ol, ul {
@@ -156,7 +156,7 @@
   hr {
     border: 0;
     border-top: 1px solid #ebebeb;
-    margin: -3px 0 0 0;
+    margin: rem(-3px) 0 0 0;
   }
 
   :target {
@@ -167,12 +167,12 @@
     padding: 0;
 
     h2 {
-      font-size: 23px;
-      margin-top: @blog-font-size * 1.5;
+      font-size: rem(23px);
+      margin-top: calc(@blog-font-size * 1.5);
       margin-bottom: 0;
 
       @media (min-width: @sm) {
-        font-size: 24px;
+        font-size: rem(24px);
       }
 
       a {
@@ -187,11 +187,11 @@
 
     .post-meta {
       text-align: left;
-      margin-top: 2px;
-      margin-bottom: -18px; // Half of font size
+      margin-top: rem(2px);
+      margin-bottom: rem(-18px); // Half of font size
 
       @media (min-width: @sm) {
-        margin-top: 1px;
+        margin-top: rem(1px);
       }
     }
   }

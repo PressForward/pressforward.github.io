@@ -1,4 +1,4 @@
-<svg class="triangles" role="presentation" xmlns="http://www.w3.org/2000/svg" width="2560" height="800" viewBox="0 0 2560 800" preserveAspectRatio="xMidYMin slice">
+<svg class="triangles" role="presentation" xmlns="http://www.w3.org/2000/svg" width="2560" height="800" viewBox="0 0 2560 800">
   <polygon points="554 455.5 621 598 753 426 554 455.5" fill="#5c5ce5"/>
   <polygon points="632 314 666.253 410.224 703 341 632 314" fill="#5c5ce5" opacity="0.9"/>
   <polygon points="753 371 816 444 850 360 753 371" fill="#5c5ce5" opacity="0.95"/>

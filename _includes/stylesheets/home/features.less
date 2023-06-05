@@ -1,22 +1,22 @@
 .features {
-  font-size: 19px;
+  font-size: @font-size-large;
   line-height: 1.33;
   word-spacing: -0.035em;
-  padding-top: calc(@section-mobile-spacing - @section-spacing-skew - 4px);
-  padding-bottom: ceil(@section-mobile-spacing * 4 / 3) - @features-mobile-spacing - 10px;
+  padding-top: calc(rem(@section-mobile-spacing) - @section-spacing-skew - rem(4px));
+  padding-bottom: rem(ceil(@section-mobile-spacing * 4 / 3) - @features-mobile-spacing - 10px);
 
   @media (min-width: @sm) {
-    padding-top: calc(@section-spacing - @section-spacing-skew);
-    padding-bottom: ceil(@section-spacing * 4 / 3) - @features-spacing - 29px;
+    padding-top: calc(rem(@section-spacing) - @section-spacing-skew);
+    padding-bottom: rem(ceil(@section-spacing * 4 / 3) - @features-spacing - 29px);
   }
 
   h2 {
     margin-top: 0;
-    margin-bottom: @features-mobile-spacing - 8px;
+    margin-bottom: rem(@features-mobile-spacing - 8px);
 
     @media (min-width: @sm) {
       text-align: center;
-      margin-bottom: @features-spacing - 9px;
+      margin-bottom: rem(@features-spacing - 9px);
     }
   }
 
@@ -29,19 +29,19 @@
   }
 
   p {
-    margin-top: 9px;
+    margin-top: rem(9px);
     margin-bottom: 40px - 7px;
 
     @media (min-width: @sm) {
-      margin: 9px 0 0 0;
+      margin: rem(9px) 0 0 0;
     }
   }
 
   .grid {
-    padding-block: @features-mobile-spacing;
+    padding-block: rem(@features-mobile-spacing);
 
     @media (min-width: @sm) {
-      padding-block: @features-spacing;
+      padding-block: rem(@features-spacing);
     }
 
     &:nth-of-type(odd) {

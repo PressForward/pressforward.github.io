@@ -2,21 +2,21 @@
   position: relative;
   color: @white;
   overflow: hidden;
-  padding-top: calc(@section-mobile-spacing - 38px + 10vw);
-  padding-bottom: @section-mobile-spacing - 4px;
+  padding-top: calc(rem(@section-mobile-spacing) - rem(38px) + 10vw);
+  padding-bottom: rem(@section-mobile-spacing - 4px);
   margin-top: -3px; // Section overlap
 
   @media (min-width: @sm) {
-    padding-top: calc(@section-spacing - 50px + 10vw);
-    padding-bottom: @section-spacing - 4px;
+    padding-top: calc(rem(@section-spacing) - rem(50px) + 10vw);
+    padding-bottom: rem(@section-spacing - 4px);
   }
 
   @media (min-width: @md) {
-    padding-top: calc(@section-spacing - 60px + 10vw);
+    padding-top: calc(rem(@section-spacing) - rem(60px) + 10vw);
   }
 
   @media (min-width: @lg) {
-    padding-top: calc(@section-spacing - 2px + @section-spacing-skew);
+    padding-top: calc(rem(@section-spacing) - rem(2px) + @section-spacing-skew);
   }
 
   .skew {
@@ -44,12 +44,15 @@
       color: @blue-light;
       transform: scale(0.5);
       transform-origin: 100% 0;
-      top: 50px;
+      top: min(3.125rem, 50px);
       right: -22px;
 
       @media (min-width: @sm) {
         transform: initial;
-        top: calc(107px + @section-spacing-skew);
+        width: rem(160px);
+        height: auto;
+        max-width: 160px;
+        top: calc(rem(107px) + @section-spacing-skew);
         right: initial;
         left: 50%;
         color: @blue-light;
@@ -67,7 +70,7 @@
 
       @media (min-width: @sm) {
         display: block;
-        top: calc(82px + @section-spacing-skew);
+        top: calc(rem(82px) + @section-spacing-skew);
         right: initial;
         left: calc(50% + 595px);
         transform: initial;
@@ -139,32 +142,32 @@
     color: @white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin-bottom: @space-lg - 18px;
+    margin-bottom: rem(@space-lg - 18px);
 
     @media (min-width: @sm) {
-      margin-bottom: @space-xxl - 18px;
+      margin-bottom: rem(@space-xxl - 18px);
     }
   }
 
   .lead {
     font-size: @font-size-large;
     line-height: 1.33;
-    margin-bottom: @space-xxl - 15px;
+    margin-bottom: rem(@space-xxl - 15px);
 
     @media (min-width: @sm) {
       width: 80%;
-      margin-bottom: @section-spacing / 2 - 15px;
+      margin-bottom: rem(@section-spacing / 2 - 15px);
     }
   }
 
   .about-text {
     opacity: 0.84;
-    margin-bottom: @section-mobile-spacing - 8px;
+    margin-bottom: rem(@section-mobile-spacing - 8px);
 
     @media (min-width: @sm) {
       columns: 2;
       column-gap: @grid-column-gap;
-      margin-bottom: @section-spacing - 15px;
+      margin-bottom: rem(@section-spacing - 15px);
     }
   }
 

@@ -12,23 +12,23 @@
     padding: 0;
     display: flex;
     align-items: center;
-    height: @header-mobile-height;
+    height: rem(@header-mobile-height);
 
     @media (min-width: @sm) {
       margin: 0 (-@space-md);
-      height: @header-height;
+      height: rem(@header-height);
     }
   }
 
   a {
     text-decoration: none;
     display: block;
-    padding: @space-sm;
+    padding: rem(@space-sm) @space-sm;
     color: inherit;
     outline-offset: -3px;
 
     @media (min-width: @sm) {
-      padding: @space-sm @space-md;
+      padding: rem(@space-sm) @space-md;
     }
 
     &:focus-visible {
@@ -42,7 +42,7 @@
     a {
       display: flex;
       align-items: center;
-      font-size: 25px;
+      font-size: rem(25px);
       line-height: 1;
     }
 

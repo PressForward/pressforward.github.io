@@ -30,14 +30,14 @@
 
     @media (min-width: @sm) {
       display: block;
-      top: calc(360px + @section-spacing-skew);
+      top: calc(rem(360px) + @section-spacing-skew);
       left: calc(50% - 886px);
     }
   }
 
   .triangle-2 {
-    top: 35px;
-    right: -29px;
+    top: rem(35px);
+    right: rem(-29px);
     transform: scale(0.5);
     transform-origin: 100% 50%;
     color: @blue;
@@ -57,35 +57,35 @@
 
   // Use margin instead of section padding as some values can be negative
   .container-fluid {
-    margin-top: calc(@section-mobile-spacing - 11px + 10vw);
-    margin-bottom: calc(@section-mobile-spacing - 43px - @section-spacing-skew);
+    margin-top: calc(rem(@section-mobile-spacing) - rem(11px) + 10vw);
+    margin-bottom: calc(rem(@section-mobile-spacing) - rem(43px) - @section-spacing-skew);
     position: relative;
 
     @media (min-width: @sm) {
-      margin-top: calc(@section-spacing - 16px + 10vw);
-      margin-bottom: calc(@section-spacing - 50px - @section-spacing-skew);
+      margin-top: calc(rem(@section-spacing) - rem(16px) + 10vw);
+      margin-bottom: calc(rem(@section-spacing) - rem(50px) - @section-spacing-skew);
     }
 
     @media (min-width: @md) {
-      margin-bottom: calc(@section-spacing - 29px - @section-spacing-skew);
+      margin-bottom: calc(rem(@section-spacing) - rem(29px) - @section-spacing-skew);
     }
 
     @media (min-width: @lg) {
-      margin-top: calc(@section-spacing + 46px + @section-spacing-skew);
+      margin-top: calc(rem(@section-spacing) + rem(46px) + @section-spacing-skew);
     }
   }
 
   h2 {
     margin: 0;
-    margin-bottom: @space-xxl - 7px;
+    margin-bottom: rem(@space-xxl - 7px);
 
     @media (min-width: @sm) {
-      margin-bottom: @section-spacing * 9 / 16 - 10px;
+      margin-bottom: rem(@section-spacing * 9 / 16 - 10px);
     }
   }
 
   h3 {
-    font-size: 18px;
+    font-size: rem(18px);
     line-height: 1.33;
     letter-spacing: inherit;
     margin: 0;
@@ -96,15 +96,15 @@
   }
 
   img {
-    margin-bottom: @space-xl - 8px;
+    margin-bottom: rem(@space-xl - 8px);
   }
 
   p {
-    margin-top: 9px;
-    margin-bottom: @space-xxl - 8px;
+    margin-top: rem(9px);
+    margin-bottom: rem(100px - 8px);
 
     @media (min-width: @sm) {
-      margin-bottom: @section-spacing * 9 / 16 - 8px;
+      margin-bottom: rem(@section-spacing * 9 / 16 - 8px);
     }
   }
 }

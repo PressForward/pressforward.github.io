@@ -2,13 +2,13 @@ body:has(.not-found) {
   background:
     url("/assets/images/not-found/triangles.svg")
     no-repeat
-    center 120px e("/")
-    1024px
+    center rem(120px) e("/")
+    rem(1024px)
     @blue-dark;
 
   @media (min-width: @sm) {
     background-position: center top;
-    background-size: initial;
+    background-size: rem(2560px);
   }
 }
 
@@ -20,12 +20,12 @@ body:has(.not-found) {
     color: @white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin-top: @section-mobile-spacing - 43px;
+    margin-top: rem(@section-mobile-spacing - 43px);
     margin-bottom: 0;
 
     @media (min-width: @sm) {
-      margin-top: @section-spacing - 56px;
-      margin-bottom: @space-xxl - 23px;
+      margin-top: rem(@section-spacing - 56px);
+      margin-bottom: rem(@space-xxl - 23px);
     }
   }
 
