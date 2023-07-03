@@ -55,9 +55,9 @@ The footnote. {#footnote-1}
 ```
 
 ### Responsive image
-Use a custom liquid tag to embed images with multiple resolutions (specify `@2x` version only). Optional attributes are `alt`, `width`, `height`, and `className`.
+Use a custom liquid tag to embed images with multiple resolutions (specify `@2x` version only). Optional attributes are `alt`, `width`, `height`, and `className`. The `"xs"`, `"sm"`, or `"lg"` sizing class can be used to adjust the width of the image.
 ```
-{% image src: "/path/to/image@2x.png" alt: "" %}
+{% image src: "/path/to/image@2x.png" alt: "Description" className: "sm" %}
 ```
 ### Image link
 To wrap the image in a link, simply add a `href` attribute to the custom image tag:
