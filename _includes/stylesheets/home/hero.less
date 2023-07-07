@@ -115,9 +115,16 @@
     padding: rem(11.5px) @space-md rem(11px);
     border-radius: rem(6px);
     margin-bottom: rem(@space-lg - 6px);
+    transition: background-color 0.15s cubic-bezier(0.22, 0.61, 0.36, 1);
 
     @media (min-width: @sm) {
       margin-bottom: rem(@space-xl - 6px);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: darken(@brand-primary, 2%);
+      }
     }
   }
 
