@@ -15,6 +15,15 @@ npx @11ty/eleventy --serve
 
 ## Writing blog posts
 
+### Tags
+Use tags in the front matter to categorize your posts:
+```
+---
+tags:
+  - News
+---
+```
+
 ### Excerpt
 To create an excerpt, use the `---` excerpt separator in your post:
 ```
